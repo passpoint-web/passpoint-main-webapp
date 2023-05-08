@@ -43,6 +43,7 @@ const Download = () => {
             src={Join}
             width={500}
             placeholder="blur"
+            alt="passpoint phone"
             className="w-[100%] md:object-contain tab:object-contain tab:w-[70%] sm:w-[90%]"
           />
         </div>

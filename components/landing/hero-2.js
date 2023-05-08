@@ -40,6 +40,7 @@ const Hero2 = () => {
             src={PhoneHero}
             width={301}
             height={610}
+            alt="passpoint app"
             className="w-[68%] tab:hidden"
           />
           <Image
@@ -47,6 +48,7 @@ const Hero2 = () => {
             width={396}
             height={237}
             placeholder="blur"
+            alt="passpoint app"
             className="w-[95%] absolute bottom-10 left-[-10rem] md:left-[-7rem] tab:hidden"
           />
           <Image
@@ -54,6 +56,7 @@ const Hero2 = () => {
             width={301}
             height={610}
             placeholder="blur"
+            alt="passpoint app"
             className="hidden tab:block tab:w-[70%] sm:w-[90%]"
           />
         </section>

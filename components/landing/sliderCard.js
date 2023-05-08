@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const SliderCard = ({ image, title, text, position, time, rate, activeSlide }) => {
+const SliderCard = ({ image, title, text, position, time, rate }) => {
   return (
     <main className={`max-w-[540px] bg-white p-[32px_24px] rounded-[16px] mt-[30px] border-[#e7e7e7] border-[1px] border-solid   tab:max-w-[100%] sm:p-[25px_24px] `}>
       <div className="flex items-center">
