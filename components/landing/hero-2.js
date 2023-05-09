@@ -2,6 +2,8 @@ import Image from "next/image";
 import PhoneHero from "../../public/assets/images/landing/hero-phone.png";
 import PhoneHero2 from "../../public/assets/images/landing/hero-join.png";
 import CardHero from "../../public/assets/images/landing/hero-card.png";
+import Play from "../../public/assets/images/landing/play-store.svg";
+import Apple from "../../public/assets/images/landing/apple-store.svg";
 
 const Hero2 = () => {
   return (
@@ -20,17 +22,15 @@ const Hero2 = () => {
             <a href="#" className="">
               <Image
                 alt="passpoint store"
-                src="/assets/images/landing/play-store.svg"
-                width={200}
-                height={70}
+                src={Play}
+                className="w-auto h-auto"
               />
             </a>
             <a href="#" className="">
               <Image
-                src="/assets/images/landing/apple-store.svg"
-                width={200}
-                height={70}
+                src={Apple}
                 alt="passpoint store"
+                className="w-auto h-auto"
               />
             </a>
           </div>

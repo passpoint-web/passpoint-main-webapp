@@ -7,7 +7,7 @@ const ProcessCard = ({image, title, text}) => {
       <Image
         priority
         alt="passpoit card process"
-        src={`/assets/images/cardAbout/${image}`}
+        src={image}
         width={64}
         height={64}
         className="sm:w-[40px] sm:h-[40px]"

@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="w-[85%] mx-auto flex justify-between flex-wrap gap-[40px] md:w-[90%] sm:justify-start">
         <section className="w-[27%] md:w-[40%] tab:w-[60%] sm:w-[100%]">
           <h3 className="[&>:first-child]:mb-[20px]">
-            <Logo />
+            <Image src={Logo} alt="passpoint logo" />
           </h3>
           <ul className="flex flex-col gap-5 text-[14px] sm:text-[13px] text-white">
             <li className="">
@@ -22,16 +22,16 @@ const Footer = () => {
             </li>
             <li className="inline-flex gap-[24px]">
               <a href="http://" target="_blank" rel="noopener noreferrer">
-                <Twitter />
+                <Image src={Twitter} alt="passpoint twitter" />
               </a>
               <a href="http://" target="_blank" rel="noopener noreferrer">
-                <Instagram />
+                <Image src={Instagram} alt="passpoint instagram" />
               </a>
               <a href="http://" target="_blank" rel="noopener noreferrer">
-                <LinkedIn />
+                <Image src={LinkedIn} alt="passpoint linkedIn" />
               </a>
               <a href="http://" target="_blank" rel="noopener noreferrer">
-                <Fb />
+                <Image src={Fb} alt="passpoint facebook" />
               </a>
             </li>
           </ul>
@@ -41,7 +41,9 @@ const Footer = () => {
           <ul className="flex flex-col gap-2 text-white text-[14px] sm:text-[13px]">
             <li>
               <Link href="" legacyBehavior>
-                <a className="text-white text-[14px] sm:text-[13px]">Flight Ticket</a>
+                <a className="text-white text-[14px] sm:text-[13px]">
+                  Flight Ticket
+                </a>
               </Link>
             </li>
             <li>
@@ -51,17 +53,23 @@ const Footer = () => {
             </li>
             <li>
               <Link href="" legacyBehavior>
-                <a className="text-white text-[14px] sm:text-[13px]">Plan Trip</a>
+                <a className="text-white text-[14px] sm:text-[13px]">
+                  Plan Trip
+                </a>
               </Link>
             </li>
             <li>
               <Link href="" legacyBehavior>
-                <a className="text-white text-[14px] sm:text-[13px]">Bill Payment</a>
+                <a className="text-white text-[14px] sm:text-[13px]">
+                  Bill Payment
+                </a>
               </Link>
             </li>
             <li>
               <Link href="" legacyBehavior>
-                <a className="text-white text-[14px] sm:text-[13px]">Wallet Management</a>
+                <a className="text-white text-[14px] sm:text-[13px]">
+                  Wallet Management
+                </a>
               </Link>
             </li>
           </ul>
@@ -73,7 +81,9 @@ const Footer = () => {
             <li>Physical Card</li>
             <li>
               <Link href="" legacyBehavior>
-                <a className="text-white text-[14px] sm:text-[13px]">Passpoint Go</a>
+                <a className="text-white text-[14px] sm:text-[13px]">
+                  Passpoint Go
+                </a>
               </Link>
             </li>
           </ul>
@@ -93,12 +103,16 @@ const Footer = () => {
             </li>
             <li>
               <Link href="" legacyBehavior>
-                <a className="text-white text-[14px] sm:text-[13px]">Terms & Condition</a>
+                <a className="text-white text-[14px] sm:text-[13px]">
+                  Terms & Condition
+                </a>
               </Link>
             </li>
             <li>
               <Link href="" legacyBehavior>
-                <a className="text-white text-[14px] sm:text-[13px]">Privacy Policy</a>
+                <a className="text-white text-[14px] sm:text-[13px]">
+                  Privacy Policy
+                </a>
               </Link>
             </li>
           </ul>
@@ -108,12 +122,18 @@ const Footer = () => {
           <ul className="flex flex-col gap-2 text-white text-[14px] sm:text-[13px]">
             <li>Lagos, Nigeria</li>
             <li>
-              <a href="mailto:passpoint@gmail.com" className="text-white text-[14px] sm:text-[13px]">
+              <a
+                href="mailto:passpoint@gmail.com"
+                className="text-white text-[14px] sm:text-[13px]"
+              >
                 Email: passpoint@gmail.com
               </a>
             </li>
             <li>
-              <a href="tel:+2347089234543" className="text-white text-[14px] sm:text-[13px]">
+              <a
+                href="tel:+2347089234543"
+                className="text-white text-[14px] sm:text-[13px]"
+              >
                 Phone: +2347089234543
               </a>
             </li>
@@ -125,6 +145,3 @@ const Footer = () => {
 };
 
 export default Footer;
-<section>
-  <h3></h3>
-</section>;

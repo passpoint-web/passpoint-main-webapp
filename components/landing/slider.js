@@ -8,15 +8,14 @@ const Slider = () => {
   const [activeSlide, setActiveSlide] = useState(0);
   const [activeButton, setActiveButton] = useState(false);
 
-  const handleNext = () => {
-    
-    if (activeSlide <= sliderData.length) {
-      setActiveButton(true);
-    }
-    console.log(sliderData.length);
-    console.log(activeSlide);
-    console.log(activeButton);
-  };
+  // const handleNext = () => {
+  //   if (activeSlide <= sliderData.length) {
+  //     setActiveButton(true);
+  //   }
+  //   console.log(sliderData.length);
+  //   console.log(activeSlide);
+  //   console.log(activeButton);
+  // };
 
   return (
     <div className="w-full my-[76px]">
@@ -68,16 +67,11 @@ const Slider = () => {
           <div
             className={`splide__arrows [&>*]:w-[40px] [&>*]:h-[40px] [&>*]:border-[2px] [&>*]:rounded-[100px] [&>*]:border-[#8a8c8e] [&>*]:font-[600] [&>*]:outline-none [&>*]:text-secondary absolute top-[-5.5vw] right-[8vw] tab:[&>*]:w-[32px] tab:[&>*]:h-[32px] tab:right-0 tab:top-[-7.5vw] sm:top-[-11vw] `}
           >
-            <button
-              className={`splide__arrow splide__arrow--prev ${
-                activeButton ? "bg-primary" : ""
-              }`}
-            >
+            <button className={`splide__arrow splide__arrow--prev `}>
               &#60;
             </button>
             <button
               className={`splide__arrow splide__arrow--next ml-[20px] tab:ml-[16px]`}
-              onClick={handleNext}
             >
               &#62;
             </button>

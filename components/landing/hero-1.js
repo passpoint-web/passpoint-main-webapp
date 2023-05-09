@@ -1,5 +1,7 @@
 import Image from "next/image";
 import HeroImage from "../../public/assets/images/landing/hero-image-2.png";
+import PlayStore from "../../public/assets/images/landing/play-store.svg";
+import AppleStore from "../../public/assets/images/landing/apple-store.svg";
 
 const Hero1 = () => {
   return (
@@ -17,18 +19,20 @@ const Hero1 = () => {
           <div className="flex gap-[24px] w-full tab:w-[85%] tab:gap-[18px]">
             <a href="#">
               <Image
-                src="/assets/images/landing/play-store.svg"
+                src={PlayStore}
                 width={200}
                 height={70}
                 alt="passpoint app download"
+                className="w-auto h-auto"
               />
             </a>
             <a href="#">
               <Image
-                src="/assets/images/landing/apple-store.svg"
+                src={AppleStore}
                 width={200}
                 height={70}
                 alt="passpoint app download"
+                className="w-auto h-auto"
               />
             </a>
           </div>

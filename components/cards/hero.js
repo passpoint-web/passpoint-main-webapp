@@ -1,5 +1,7 @@
 import Image from "next/image";
 import HeroImage from "../../public/assets/images/cardAbout/hero-card.png";
+import Play from "../../public/assets/images/landing/play-store.svg";
+import Apple from "../../public/assets/images/landing/apple-store.svg";
 
 const Hero = () => {
   return (
@@ -15,21 +17,23 @@ const Hero = () => {
           <div className="flex gap-[24px] w-full tab:w-[85%] tab:gap-[18px]">
             <a href="#">
               <Image
-                src="/assets/images/landing/play-store.svg"
+                src={Play}
                 blurDataURL="/assets/images/landing/play-store.svg"
                 placeholder="blur"
                 width={200}
                 height={70}
                 alt="passpoint app download"
+                className="w-full h-auto"
               />
             </a>
             <a href="#">
               <Image
-                src="/assets/images/landing/apple-store.svg"
+                src={Apple}
                 blurDataURL=""
                 width={200}
                 height={70}
                 alt="passpoint app download"
+                className="w-full h-auto"
               />
             </a>
           </div>

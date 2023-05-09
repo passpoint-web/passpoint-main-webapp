@@ -24,7 +24,7 @@ export default function Home() {
           arrows: false,
           pauseOnHover: false,
           autoplay: true,
-          interval: 4000,
+          interval: 5000,
           easing: ".6s ease-in",
         }}
       >

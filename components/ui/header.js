@@ -3,8 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Logo1 from "../../public/assets/images/landing/logo-1.svg";
-import Logo2 from "../../public/assets/images/landing/logo-2.svg";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Menu from "./menu.-button";
 
 const Header = ({}) => {
@@ -17,7 +16,7 @@ const Header = ({}) => {
     >
       <header className="w-[85%] mx-auto flex justify-between items-center gap-[20px] md:w-[90%] ">
         <Link href="/">
-          <Logo1 />
+          <Image src={Logo1} className="w-full h-auto" alt="passpoint logo" />
         </Link>
         <ul
           className={`flex items-center gap-[50px] transform transition duration-300 ease-in-out md:gap-[25px] tab:fixed tab:bg-white tab:px-[5vw] tab:pt-[20px] tab:z-[200] tab:w-full tab:h-screen tab:top-[64px] tab:left-0 tab:flex-col tab:justify-start tab:items-start tab:translate-x-[-100%] sm:px ${
