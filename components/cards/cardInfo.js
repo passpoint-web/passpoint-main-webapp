@@ -42,7 +42,7 @@ const CardInfo = () => {
               {card.num}
             </span>
             <h3
-              className={`text-[1.5vw] font-bold ${card.textColor2} m-[24px_0_16px] md:text-[18px] md:m-[18px_0_14px]`}
+              className={`text-[1.5vw] font-bold ${card.textColor2} m-[24px_0_16px] md:text-[18px] md:m-[18px_0_14px] sm:text-[16px] sm:m-[14px_0_14px]`}
             >
               {card.card}
             </h3>

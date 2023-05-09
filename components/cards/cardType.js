@@ -2,7 +2,7 @@ import CardInfo from "./cardInfo";
 
 const CardType = () => {
   return (
-    <div className="w-full m-[80px_0]">
+    <div className="w-full m-[90px_0]">
       <div className="w-[85%] mx-auto md:w-[90%]">
         <h2 className="text-[3vw] text-secondary font-semibold mb-[16px] text-center sm:text-[5vw]">Our Cards</h2>
         <p className="text-[16px] text-secondary text-center w-[45%] mx-auto tab:w-[100%]">

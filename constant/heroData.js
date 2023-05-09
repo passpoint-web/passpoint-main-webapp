@@ -164,3 +164,21 @@ export const securityData = [
     text: "Your money is NDIC insured by our partner banks.",
   },
 ];
+
+export const aboutData = [
+  {
+    textSize: "text-center font-bold text-[2.5vw] md:text-[4vw] tab:text-[5.2vw]",
+    title: "About Us",
+    text: "At passpoint, we make your travel a more rewarding experience for you by providing you with all you need for your dream trip. We make payments simple and accessible with NO barrier on currency type in your destination country with secured and payment gateways.",
+  },
+  {
+    textSize: "text-center font-bold text-[1.5vw] md:text-[18px]",
+    title: "Our Vision",
+    text: "Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren.Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena.",
+  },
+  {
+    textSize: "text-center font-bold text-[1.5vw] md:text-[18px]",
+    title: "Our Mission",
+    text: "Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren.Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena.  ",
+  },
+];

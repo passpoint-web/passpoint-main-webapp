@@ -12,11 +12,11 @@ const SafetyCard = ({ image, title, text }) => {
           alt="passpoint security"
           className="sm:w-[30px] sm:h-[30px] fill-primary"
         />
-        <span className="text-[20px] text-secondary font-semibold ml-[10px] tab:text-[18px]">
+        <span className="text-[20px] text-secondary font-semibold ml-[10px] tab:text-[18px] sm:text-[16px]">
           {title}
         </span>
       </div>
-      <p className="text-[18px] text-secondary w-[70%] md:w-[100%] sm:text-[16px]">{text}</p>
+      <p className="text-[18px] text-secondary w-[70%] md:w-[100%] sm:text-[14px] ">{text}</p>
     </div>
   );
 };

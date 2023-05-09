@@ -5,30 +5,27 @@ import "@splidejs/react-splide/css/core";
 import { useState } from "react";
 
 const Slider = () => {
-  const [activeSlide, setActiveSlide] = useState({});
-  const [activeButton, setActiveButton] = useState(0);
-
-  const handlePrev = () => {
-    setActiveButton((activeButton - 1 + sliderData.length) % sliderData.length);
-    // console.log(activeButton);
-  };
+  const [activeSlide, setActiveSlide] = useState(0);
+  const [activeButton, setActiveButton] = useState(false);
 
   const handleNext = () => {
-    setActiveButton((activeButton + 1) % sliderData.length);
-    // console.log(activeButton);
-    // console.log(sliderData.length);
-    // console.log(activeSlide);
+    
+    if (activeSlide <= sliderData.length) {
+      setActiveButton(true);
+    }
+    console.log(sliderData.length);
+    console.log(activeSlide);
+    console.log(activeButton);
   };
-
 
   return (
     <div className="w-full my-[76px]">
       <div className="w-[85%] mx-auto flex justify-between items-center md:w-[90%]">
         <section>
-          <h3 className="text-secondary text-[24px] font-semibold tab:text-[18px]">
+          <h3 className="text-secondary text-[24px] font-semibold tab:text-[16px]">
             TESTIMONIALS
           </h3>
-          <h2 className="text-secondary text-[32px] font-semibold w-[65%] mt-[20px] leading-[129%] tab:text-[20px]">
+          <h2 className="text-secondary text-[32px] font-semibold w-[65%] mt-[20px] leading-[129%] tab:text-[18px]">
             What Our Customers Say About Us
           </h2>
         </section>
@@ -57,9 +54,8 @@ const Slider = () => {
               },
             },
           }}
-          onMove={(active) => {
-            setActiveSlide(active._C.Elements.slides);
-            // setActiveButton(active.index % sliderData.length);
+          onMove={(_, active) => {
+            setActiveSlide(active);
           }}
         >
           <SplideTrack>
@@ -73,10 +69,10 @@ const Slider = () => {
             className={`splide__arrows [&>*]:w-[40px] [&>*]:h-[40px] [&>*]:border-[2px] [&>*]:rounded-[100px] [&>*]:border-[#8a8c8e] [&>*]:font-[600] [&>*]:outline-none [&>*]:text-secondary absolute top-[-5.5vw] right-[8vw] tab:[&>*]:w-[32px] tab:[&>*]:h-[32px] tab:right-0 tab:top-[-7.5vw] sm:top-[-11vw] `}
           >
             <button
-              className={`splide__arrow splide__arrow--prev`}
-              onClick={handlePrev}
+              className={`splide__arrow splide__arrow--prev ${
+                activeButton ? "bg-primary" : ""
+              }`}
             >
-              {" "}
               &#60;
             </button>
             <button

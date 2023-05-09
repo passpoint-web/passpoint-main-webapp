@@ -23,7 +23,7 @@ const CardTrip = () => {
             for seamless payments and can be utilize anywhere.
           </p>
           <Link href="#" legacyBehavior>
-            <a className="p-[18px_32px] bg-primary text-white font-bold rounded-[100px] borderAttributes border-primary hover:text-primary sm:p-[15px_26px] sm:text-[14px]">
+            <a className="p-[18px_32px] bg-primary text-white font-bold rounded-[100px] borderAttributes border-primary hover:text-primary sm:p-[15px_26px] sm:text-[13px]">
               Get Your Passpoint Card
             </a>
           </Link>

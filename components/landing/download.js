@@ -6,7 +6,7 @@ const Download = () => {
     <div className="w-full bg-white mt-[100px]">
       <div className="w-[85%] mx-auto flex justify-between gap-[50px] md:w-[90%] tab:flex-col items-center">
         <div className="w-[60%] md:w-[65%] tab:w-[100%] tab:text-center">
-          <h2 className="text-[3.2vw] w-[90%] font-bold text-secondary leading-[4vw] md:w-[100%] tab:text-[35px] tab tab:text-center tab:leading-[40px] sm:text-[30px]">
+          <h2 className="text-[3.2vw] w-[90%] font-bold text-secondary leading-[4vw] md:w-[100%] tab:text-[35px] tab tab:text-center tab:leading-[35px] sm:text-[24px]">
             <span className="text-primary">Passspoint</span> is available on all
             devices
             {/* Get Your <span className="text-primary">Cards</span> On Our Mobile App */}
@@ -41,7 +41,8 @@ const Download = () => {
         <div className="w-[%40] flex justify-end md:w-[35%] tab:w-[100%] tab:justify-center">
           <Image
             src={Join}
-            width={500}
+            width={563}
+            height={758}
             placeholder="blur"
             alt="passpoint phone"
             className="w-[100%] md:object-contain tab:object-contain tab:w-[70%] sm:w-[90%]"

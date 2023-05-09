@@ -12,8 +12,8 @@ const ProcessCard = ({image, title, text}) => {
         height={64}
         className="sm:w-[40px] sm:h-[40px]"
       />
-      <h3 className="text-[20px] font-[600] mt-[30px] mb-[16px] sm:mt-[20px]">{title}</h3>
-      <p className="text-[16px] leading-[150%] text-secondary">{text}</p>
+      <h3 className="text-[20px] font-[600] mt-[30px] m-[20px_0_16px] sm:m-[14px] sm:text-[16px]">{title}</h3>
+      <p className="text-[16px] leading-[150%] text-secondary sm:text-[14px]">{text}</p>
     </div>
   );
 };

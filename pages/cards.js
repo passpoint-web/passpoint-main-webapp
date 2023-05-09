@@ -11,13 +11,13 @@ import React from "react";
 const Cards = () => {
   return (
     <MainLayout>
-      <Hero />
+      {/* <Hero />
       <CardTrip />
       <CardType />
       <CreateCard />
       <Security />
       <Download />
-      <Subscribe />
+      <Subscribe /> */}
     </MainLayout>
   );
 };
