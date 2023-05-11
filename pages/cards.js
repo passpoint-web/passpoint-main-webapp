@@ -10,13 +10,13 @@ import MainLayout from "@/layout/mainLayout";
 const Cards = () => {
   return (
     <MainLayout>
-      {/* <Hero />
+      <Hero />
       <CardTrip />
       <CardType />
       <CreateCard />
       <Security />
-      <Download />
-      <Subscribe /> */}
+      <Download card />
+      <Subscribe />
     </MainLayout>
   );
 };

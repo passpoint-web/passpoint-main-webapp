@@ -5,17 +5,7 @@ import "@splidejs/react-splide/css/core";
 import { useState } from "react";
 
 const Slider = () => {
-  const [activeSlide, setActiveSlide] = useState(0);
-  const [activeButton, setActiveButton] = useState(false);
-
-  // const handleNext = () => {
-  //   if (activeSlide <= sliderData.length) {
-  //     setActiveButton(true);
-  //   }
-  //   console.log(sliderData.length);
-  //   console.log(activeSlide);
-  //   console.log(activeButton);
-  // };
+  const [position, setPosition] = useState("next");
 
   return (
     <div className="w-full my-[76px]">
@@ -53,9 +43,6 @@ const Slider = () => {
               },
             },
           }}
-          onMove={(_, active) => {
-            setActiveSlide(active);
-          }}
         >
           <SplideTrack>
             {sliderData.map((item, id) => (
@@ -65,13 +52,21 @@ const Slider = () => {
             ))}
           </SplideTrack>
           <div
-            className={`splide__arrows [&>*]:w-[40px] [&>*]:h-[40px] [&>*]:border-[2px] [&>*]:rounded-[100px] [&>*]:border-[#8a8c8e] [&>*]:font-[600] [&>*]:outline-none [&>*]:text-secondary absolute top-[-5.5vw] right-[8vw] tab:[&>*]:w-[32px] tab:[&>*]:h-[32px] tab:right-0 tab:top-[-7.5vw] sm:top-[-11vw] `}
+            className={`splide__arrows [&>*]:w-[40px] [&>*]:h-[40px] [&>*]:rounded-[100px] [&>*]:font-[600] [&>*]:outline-none absolute top-[-5.5vw] right-[8vw] tab:[&>*]:w-[32px] tab:[&>*]:h-[32px] tab:right-0 tab:top-[-7.5vw] sm:top-[-11vw] sm:[&>*]:text-[14px] `}
           >
-            <button className={`splide__arrow splide__arrow--prev `}>
+            <button
+              className={`splide__arrow splide__arrow--prev text-secondary border-[#8a8c8e] border-[2px] ${
+                position === "prev" && "bg-primary text-white border-[#009EC5]"
+              } `}
+              onClick={() => setPosition("prev")}
+            >
               &#60;
             </button>
             <button
-              className={`splide__arrow splide__arrow--next ml-[20px] tab:ml-[16px]`}
+              className={`splide__arrow splide__arrow--next text-secondary ml-[20px] tab:ml-[16px border-[#8a8c8e] border-[2px] ${
+                position === "next" && "bg-primary text-white border-[#009EC5]"
+              }`}
+              onClick={() => setPosition("next")}
             >
               &#62;
             </button>

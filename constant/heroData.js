@@ -16,6 +16,14 @@ import Create3 from "../public/assets/images/cardAbout/create-3.svg";
 import Safety1 from "../public/assets/images/cardAbout/safety-1.svg";
 import Safety2 from "../public/assets/images/cardAbout/safety-2.svg";
 import Safety3 from "../public/assets/images/cardAbout/safety-3.svg";
+import Value1 from "../public/assets/images/cardAbout/value-1.svg";
+import Value2 from "../public/assets/images/cardAbout/value-2.svg";
+import Value3 from "../public/assets/images/cardAbout/value-3.svg";
+import Value4 from "../public/assets/images/cardAbout/value-4.svg";
+import Team from "../public/assets/images/cardAbout/team.png";
+import Contact1 from "../public/assets/images/cardAbout/contact-1.svg";
+import Contact2 from "../public/assets/images/cardAbout/contact-2.svg";
+import Contact3 from "../public/assets/images/cardAbout/contact-3.svg";
 
 export const navData = [
   {
@@ -200,5 +208,64 @@ export const aboutData = [
     textSize: "text-center font-bold text-[1.5vw] md:text-[18px]",
     title: "Our Mission",
     text: "Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren.Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena.  ",
+  },
+];
+
+export const valueData = [
+  {
+    image: Value1,
+    title: "Honesty",
+    text: "For us as a company, it is very important that the information provided to our customers is honest and true. This value is what makes us different and helps us to make decisions based on firm and true facts.",
+  },
+  {
+    image: Value2,
+    title: "Service Quality",
+    text: "Service quality is one of our most important values which demands all our effort, determination and courage to be successful in what we are doing and the services we are providing.",
+  },
+  {
+    image: Value3,
+    title: "Communication",
+    text: "We interact transparently and appropriately, trying to strengthen our interpersonal relations and the image of the company.",
+  },
+  {
+    image: Value4,
+    title: "Team Work",
+    text: "we have built a team that works result-oriented, unifying talent and give and take to respect and join different opinions, knowledge and abilities because teamwork and mutual support build the foundation of our relationship.",
+  },
+];
+
+export const teamData = [
+  {
+    image: Team,
+    name: "Johnson David",
+    title: "Co-Founder / CEO",
+  },
+  {
+    image: Team,
+    name: "Johnson David",
+    title: "Co-Founder / CEO",
+  },
+  {
+    image: Team,
+    name: "Johnson David",
+    title: "Co-Founder / CEO",
+  },
+];
+
+export const contactData = [
+  {
+    image: Contact1,
+    title: "Phone Number",
+    text: "+2348179713069",
+  },
+  {
+    image: Contact2,
+    title: "Email Address",
+    text: "Passpoint@gmail.com",
+  },
+  {
+    image: Contact3,
+    title: "Location",
+    text: "8 The Green Ste R, Dover County, Delaware, USA",
   },
 ];

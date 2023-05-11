@@ -15,6 +15,8 @@ module.exports = {
       gridTemplateColumns: {
         fluid: "repeat(auto-fit, minmax(20rem, 1fr))",
         fluidSmall: "repeat(auto-fit, minmax(10rem, 1fr))",
+        fluidLarge: "repeat(auto-fit, minmax(25rem, 1fr))",
+
       },
     },
     colors: {
@@ -60,7 +62,7 @@ module.exports = {
     animation: {
       "open-menu": "open-menu 0.5s ease-in-out forwards",
       fadeIn: "fadeIn .95s ease-in-out 0s 1 normal none running",
-      spinY: "spinY 7.5s linear infinite",
+      spinY: "spinY 8s linear infinite",
     },
   },
 

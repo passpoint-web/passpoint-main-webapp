@@ -1,10 +1,13 @@
-import MainLayout from '@/layout/mainLayout'
-import React from 'react'
+import InTouch from "@/components/contact/inTouch";
+import MainLayout from "@/layout/mainLayout";
+import React from "react";
 
 const Contact = () => {
   return (
-    <MainLayout>Contact</MainLayout>
-  )
-}
+    <MainLayout>
+      {/* <InTouch /> */}
+    </MainLayout>
+  );
+};
 
-export default Contact
+export default Contact;

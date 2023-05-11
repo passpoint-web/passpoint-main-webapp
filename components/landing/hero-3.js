@@ -10,7 +10,7 @@ const Hero3 = () => {
         <section className="text-center">
           <h1 className="w-[70%] mx-auto text-[3.16vw] text-white font-bold leading-[66.43px] md:leading-[50px] tab:text-[5vw] tab:w-[100%] sm:text-[24px] sm:leading-[30px]">
             Access Seamless payment services for your with{" "}
-            <span className="text-primary">passpoint GO</span>
+            <span className="text-pink">passpoint GO</span>
           </h1>
           <p className="w-[43%] mx-auto text-white my-[16px] mb-[30px] leading-[24.66px] text-[14px] md:w-[80%] tab:w-full tab:mb-[60px]">
             Plan trips on your own convenience without currency type barriers,

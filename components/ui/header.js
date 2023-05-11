@@ -15,8 +15,13 @@ const Header = ({}) => {
       className={`w-full fixed top-0 left-0 py-[28px] z-[100] bg-white tab:py-[18px]`}
     >
       <header className="w-[85%] mx-auto flex justify-between items-center gap-[20px] md:w-[90%] ">
-        <Link href="/">
-          <Image src={Logo1} className="w-full h-auto" alt="passpoint logo" />
+        <Link href="/" as="image" legacyBehavior>
+          <Image
+            priority
+            src={Logo1}
+            alt="passpoint logo"
+            className="w-auto h-auto"
+          />
         </Link>
         <ul
           className={`flex items-center gap-[50px] transform transition duration-300 ease-in-out md:gap-[25px] tab:fixed tab:bg-white tab:px-[5vw] tab:pt-[20px] tab:z-[200] tab:w-full tab:h-screen tab:top-[64px] tab:left-0 tab:flex-col tab:justify-start tab:items-start tab:translate-x-[-100%] sm:px ${
