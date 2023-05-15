@@ -12,42 +12,50 @@ import Download from "@/components/landing/download";
 import Subscribe from "@/components/landing/subscribe";
 import Slider from "@/components/landing/slider";
 import MainLayout from "@/layout/mainLayout";
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <MainLayout>
-      <Splide
-        hasTrack={false}
-        options={{
-          type: "fade",
-          rewind: true,
-          arrows: false,
-          pauseOnHover: false,
-          autoplay: true,
-          interval: 5000,
-          easing: ".6s ease-in",
-        }}
-      >
-        <SplideTrack>
-          <SplideSlide>
-            <Hero1 />
-          </SplideSlide>
-          <SplideSlide>
-            <Hero2 />
-          </SplideSlide>
-          <SplideSlide>
-            <Hero3 />
-          </SplideSlide>
-        </SplideTrack>
-      </Splide>
-      <WhyUs />
-      <Works />
-      <Service />
-      <Slider />
-      <GoSection />
-      <Partners />
-      <Download />
-      <Subscribe />
-    </MainLayout>
+    <>
+      <Head>
+        <title>
+          Home - Travel Anywhere, Anytime With seamless payment Gateways{" "}
+        </title>
+      </Head>
+      <MainLayout>
+        <Splide
+          hasTrack={false}
+          options={{
+            type: "fade",
+            rewind: true,
+            arrows: false,
+            pauseOnHover: false,
+            autoplay: true,
+            interval: 5000,
+            easing: ".6s ease-in",
+          }}
+        >
+          <SplideTrack>
+            <SplideSlide>
+              <Hero1 />
+            </SplideSlide>
+            <SplideSlide>
+              <Hero2 />
+            </SplideSlide>
+            <SplideSlide>
+              <Hero3 />
+            </SplideSlide>
+          </SplideTrack>
+        </Splide>
+        <WhyUs />
+        <Works />
+        <Service />
+        <Slider />
+        <GoSection />
+        <Partners />
+        <Download />
+        <Subscribe />
+      </MainLayout>
+    </>
   );
 }

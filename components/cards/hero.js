@@ -38,9 +38,7 @@ const Hero = () => {
             </a>
           </div>
         </section>
-        <section className="w-2/4 flex justify-end tab:w-full tab:justify-center tab:mt-[50px] animate-spinY">
-          {/* <Plane className="" />
-           */}
+        <section className="w-2/4 flex justify-end tab:w-full tab:justify-center tab:mt-[50px]">
           <Image
             src={HeroImage}
             placeholder="blur"

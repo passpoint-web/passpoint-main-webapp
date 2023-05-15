@@ -1,12 +1,18 @@
 import InTouch from "@/components/contact/inTouch";
 import MainLayout from "@/layout/mainLayout";
-import React from "react";
+import Head from "next/head";
+
 
 const Contact = () => {
   return (
-    <MainLayout>
-      {/* <InTouch /> */}
-    </MainLayout>
+    <>
+      <Head>
+        <title>Contact - Get in touch with Passpoint customer service</title>
+      </Head>
+      <MainLayout>
+        <InTouch />
+      </MainLayout>
+    </>
   );
 };
 

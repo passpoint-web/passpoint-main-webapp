@@ -140,6 +140,7 @@ const Footer = () => {
           </ul>
         </section>
       </div>
+      <span className="w-full mt-[20px] block border-b-white border-solid border-b-[1px]"></span>
     </footer>
   );
 };

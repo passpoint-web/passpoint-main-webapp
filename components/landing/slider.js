@@ -56,7 +56,7 @@ const Slider = () => {
           >
             <button
               className={`splide__arrow splide__arrow--prev text-secondary border-[#8a8c8e] border-[2px] ${
-                position === "prev" && "bg-primary text-white border-[#009EC5]"
+                position === "prev" && "bg-primary text-white border-primary"
               } `}
               onClick={() => setPosition("prev")}
             >
@@ -64,7 +64,7 @@ const Slider = () => {
             </button>
             <button
               className={`splide__arrow splide__arrow--next text-secondary ml-[20px] tab:ml-[16px border-[#8a8c8e] border-[2px] ${
-                position === "next" && "bg-primary text-white border-[#009EC5]"
+                position === "next" && "bg-primary text-white border-primary"
               }`}
               onClick={() => setPosition("next")}
             >

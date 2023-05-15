@@ -48,15 +48,4 @@ a {
   .borderAttributes:hover {
     background-color: transparent;
   }
-  .active-button {
-    background-color: rgb(0, 160, 230);
-    color: white !important;
-  }
-  /* .splide__arrow.active {
-    background-color: blue;
-  }
-  
-  .splide__arrow.inactive {
-    background-color: gray;
-  } */
 }

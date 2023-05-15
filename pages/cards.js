@@ -6,18 +6,24 @@ import Security from "@/components/cards/security";
 import Download from "@/components/landing/download";
 import Subscribe from "@/components/landing/subscribe";
 import MainLayout from "@/layout/mainLayout";
+import Head from "next/head";
 
 const Cards = () => {
   return (
-    <MainLayout>
-      <Hero />
-      <CardTrip />
-      <CardType />
-      <CreateCard />
-      <Security />
-      <Download card />
-      <Subscribe />
-    </MainLayout>
+    <>
+       <Head>
+        <title>Cards - Passpoint</title>
+      </Head>
+      <MainLayout>
+        <Hero />
+        <CardTrip />
+        <CardType />
+        <CreateCard />
+        <Security />
+        <Download card />
+        <Subscribe />
+      </MainLayout>
+    </>
   );
 };
 

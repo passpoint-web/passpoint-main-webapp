@@ -15,12 +15,12 @@ const Header = ({}) => {
       className={`w-full fixed top-0 left-0 py-[28px] z-[100] bg-white tab:py-[18px]`}
     >
       <header className="w-[85%] mx-auto flex justify-between items-center gap-[20px] md:w-[90%] ">
-        <Link href="/" as="image" legacyBehavior>
+        <Link href="/" legacyBehavior>
           <Image
             priority
             src={Logo1}
             alt="passpoint logo"
-            className="w-auto h-auto"
+            className="w-auto h-auto cursor-pointer"
           />
         </Link>
         <ul
