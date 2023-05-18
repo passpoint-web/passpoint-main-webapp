@@ -32,7 +32,8 @@ export default function Home() {
             pauseOnHover: false,
             autoplay: true,
             interval: 5000,
-            easing: ".6s ease-in",
+            autoHeight: false,
+            easing: ".4s ease-in",
           }}
         >
           <SplideTrack>

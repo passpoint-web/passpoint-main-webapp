@@ -48,4 +48,8 @@ a {
   .borderAttributes:hover {
     background-color: transparent;
   }
+  .transHeight {
+    transition: height 0.2s ease;
+    /* will-change: height; */
+  }
 }

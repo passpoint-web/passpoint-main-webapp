@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Hero3 = () => {
   return (
-    <div className="w-full min-h-[100vh] relative pt-[150px] bg-[url(/assets/images/landing/circle-bg.png)] bg-contain bg-no-repeat z-[-1] md:pt-[130px] tab:pt-[150px] tab:bg-cover tab:bg-[url(/assets/images/landing/hero-circle-small.png)] sm:bg-contain tab:pb-[100px]">
+    <div className="w-full mb-[40px] relative pt-[150px] bg-[url(/assets/images/landing/circle-bg.png)] bg-contain bg-no-repeat z-[-1] md:pt-[130px] tab:mb-[0] tab:pt-[150px] tab:bg-cover tab:bg-[url(/assets/images/landing/hero-circle-small.png)] sm:bg-contain tab:pb-[100px]">
       <div className="w-[85%] mx-auto md:w-[90%]">
         <section className="text-center">
           <h1 className="w-[70%] mx-auto text-[3.16vw] text-white font-bold leading-[66.43px] md:leading-[50px] tab:text-[5vw] tab:w-[100%] sm:text-[24px] sm:leading-[30px]">

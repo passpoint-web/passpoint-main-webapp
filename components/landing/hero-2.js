@@ -7,7 +7,7 @@ import Apple from "../../public/assets/images/landing/apple-store.svg";
 
 const Hero2 = () => {
   return (
-    <div className="w-full bg-primary min-h-[100vh] pt-[150px] head-clip md:min-h-[93vh] tab:pt-[100px] tab:pb-[80px]">
+    <div className="w-full bg-primary min-h p-[150px_0_90px] head-clip tab:pt-[100px] tab:pb-[80px]">
       <div className="w-[85%] mx-auto flex justify-between items-center md:w-[90%] tab:flex-col">
         <section className="w-[68%] md:w-[65%] tab:w-full tab:mb-[50px]">
           <h1 className="text-[3.8vw] text-white font-bold leading-[77.5px] md:leading-[50px] tab:text-[6vw] sm:leading-[35px]">

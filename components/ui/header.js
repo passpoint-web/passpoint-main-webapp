@@ -29,7 +29,7 @@ const Header = ({}) => {
           }`}
         >
           {navData.map((link, id) => (
-            <li key={id}>
+            <li key={id} onClick={() => setOpenNav(false)}>
               <Link href={link.link} legacyBehavior>
                 <a
                   className={`relative before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-0 before:bg-primary before:rounded-md before:transition-[all_0.4s_ease_in] hover:before:w-full ${

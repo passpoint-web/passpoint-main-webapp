@@ -269,3 +269,31 @@ export const contactData = [
     text: "8 The Green Ste R, Dover County, Delaware, USA",
   },
 ];
+
+export const faqData = [
+  {
+    question: "What is Passpoint?",
+    answer:
+      "With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments.",
+  },
+  {
+    question: "What can i do with Passpoint?",
+    answer:
+      "With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments.",
+  },
+  {
+    question: "Safety & Security",
+    answer:
+      "With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments.",
+  },
+  {
+    question: "Can I pay with Crypto?",
+    answer:
+      "With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments. With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments. With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments. With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments.",
+  },
+  {
+    question: "Can I have multiple wallets?",
+    answer:
+      "With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments.",
+  },
+];

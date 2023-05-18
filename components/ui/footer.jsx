@@ -97,7 +97,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="" legacyBehavior>
+              <Link href="/faq" legacyBehavior>
                 <a className="text-white text-[14px] sm:text-[13px]">FAQS</a>
               </Link>
             </li>
