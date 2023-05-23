@@ -12,13 +12,11 @@ const About = () => {
       <Head>
         <title>About - Passpoint</title>
       </Head>
-      <MainLayout>
-        <Hero />
-        <WhyUs />
-        <Value />
-        <Team />
-        <Subscribe />
-      </MainLayout>
+      <Hero />
+      <WhyUs />
+      <Value />
+      <Team />
+      <Subscribe />
     </>
   );
 };

@@ -18,7 +18,7 @@ const cardDetail = [
     card: "Physical Debit Card",
     detail:
       "We also issue physical debit card to our customers to carry out their travel transactions at point-of-sale(PoS) terminals and online transactions in any destination country. You can request for a physical card and get it delivered to you within a specific working days or you can request for pick up.",
-    bg: "white",
+    bg: "bg-white",
     border: "border-[#bebebe]",
     borderWidth: "4px",
     numBg: "bg-[#dfdfdf]",
@@ -33,6 +33,8 @@ const CardInfo = () => {
       <section className="w-[47%] grid gap-[50px] md:gap-[20px] md:w-[57%] tab:w-full">
         {cardDetail.map((card, id) => (
           <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
             key={id}
             className={`w-full ${card.bg} gap-[30px] ${card.border} border rounded-[16px] p-[32px_24px] md:p-[20px_16px]`}
           >
@@ -52,14 +54,17 @@ const CardInfo = () => {
           </div>
         ))}
       </section>
-      <section className="w-[43%] flex justify-center tab:w-full tab:justify-">
+      <section
+        data-aos="fade-left"
+        className="w-[43%] flex justify-center tab:w-full tab:justify-"
+      >
         <Image
           src={HeroImage}
           placeholder="blur"
           alt="passpoint phone"
           className="max-w-[100%] md:static tab:max-w-[70%] sm:max-w-[100%]"
         />
-      </section>  
+      </section>
     </div>
   );
 };

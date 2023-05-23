@@ -7,7 +7,10 @@ const Download = ({ card }) => {
   return (
     <div className="w-full bg-white mt-[100px]">
       <div className="w-[85%] mx-auto flex justify-between gap-[50px] md:w-[90%] tab:flex-col items-center">
-        <div className="w-[55%] md:w-[65%] tab:w-[100%] tab:text-center">
+        <div
+          data-aos="fade-up"
+          className="w-[55%] md:w-[65%] tab:w-[100%] tab:text-center"
+        >
           {card ? (
             <h2 className="text-[3.2vw] w-[90%] font-bold text-secondary leading-[4vw] md:w-[100%] tab:text-[35px] tab tab:text-center tab:leading-[35px] sm:text-[24px]">
               Get Your <span className="text-primary">Cards</span> On Our Mobile
@@ -49,7 +52,7 @@ const Download = ({ card }) => {
             </a>
           </div>
         </div>
-        <div className="w-[%40] flex justify-end md:w-[35%] tab:w-[100%] tab:justify-center">
+        <div data-aos="fade-left" data-aos-duration="1000" className="w-[%40] flex justify-end md:w-[35%] tab:w-[100%] tab:justify-center">
           <Image
             src={Join}
             width={563}

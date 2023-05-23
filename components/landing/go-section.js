@@ -6,7 +6,7 @@ const GoSection = () => {
   return (
     <div className="w-full bg-black py-[44px]">
       <div className="w-[85%] mx-auto flex justify-between items-center gap-[50px] md:w-[90%] tab:flex-col">
-        <div className="w-[50%] tab:w-[100%] tab:text-center">
+        <div data-aos="fade-right" data-aos-duration="1000" className="w-[50%] tab:w-[100%] tab:text-center">
           <h2 className="text-[3vw] text-white font-semibold leading-[140%] tab:text-[5.2vw]">
             Create Your Business Services On{" "}
             <span className="text-primary">Passpoint Go</span>
@@ -16,13 +16,13 @@ const GoSection = () => {
             their services online and reaching new audiences and growing their
             brand in ways they never thought possible.
           </p>
-          <Link href="#" legacyBehavior>
+          <Link href="/passpoint-go" legacyBehavior>
             <a className="p-[18px_32px] bg-primary text-white font-bold rounded-[100px] borderAttributes border-primary hover:text-primary sm:p-[15px_26px] sm:text-[14px]">
               Learn More
             </a>
           </Link>
         </div>
-        <div className="w-[50%] flex justify-end tab:w-[100%] tab:justify-center">
+        <div data-aos="fade-left" data-aos-duration="1000" className="w-[50%] flex justify-end tab:w-[100%] tab:justify-center">
           <Image
             src={Ipad}
             placeholder="blur"

@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
 
-const TeamCard = ({ image, name, title }) => {
+const TeamCard = ({ image, name, title, data }) => {
   return (
-    <div className="rounded-[16px] tab:max-w-[389px]">
+    <div data-aos="fade-up" data-aos-duration={data} className="rounded-[16px] tab:max-w-[389px]">
       <div className="">
         <Image src={image} alt="passpoint team" className="w-full h-full" />
       </div>

@@ -17,7 +17,7 @@ const Hero3 = () => {
             with your preferred currency wallet you can pay & purchase for
             anything on your travel trips.
           </p>
-          <Link href="/" legacyBehavior>
+          <Link href="/passpoint-go" legacyBehavior>
             <a className="py-[16px] px-[32px] text-white bg-pink rounded-[100px] font-bold border-pink borderAttributes text-[16px] hover:text-pink ">
               Learn more
             </a>

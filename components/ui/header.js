@@ -2,25 +2,25 @@ import { navData } from "@/constant/heroData";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Logo1 from "../../public/assets/images/landing/logo-1.svg";
 import { useState } from "react";
 import Menu from "./menu.-button";
 
-const Header = ({}) => {
+const Header = () => {
   const [openNav, setOpenNav] = useState(false);
   const router = useRouter();
 
   return (
     <div
-      className={`w-full fixed top-0 left-0 py-[28px] z-[100] bg-white tab:py-[18px]`}
+      className={`w-full fixed top-0 left-0 py-[28px] z-[100] bg-white tab:py-[15px] shadow-[0_4px_48px_rgba(0,158,197,.08)]`}
     >
       <header className="w-[85%] mx-auto flex justify-between items-center gap-[20px] md:w-[90%] ">
         <Link href="/" legacyBehavior>
           <Image
-            priority
-            src={Logo1}
+            src="/assets/images/landing/logo-1.svg"
+            width={119}
+            height={31}
             alt="passpoint logo"
-            className="w-auto h-auto cursor-pointer"
+            className="tab:w-[100px] tab:h-auto cursor-pointer"
           />
         </Link>
         <ul
@@ -32,7 +32,7 @@ const Header = ({}) => {
             <li key={id} onClick={() => setOpenNav(false)}>
               <Link href={link.link} legacyBehavior>
                 <a
-                  className={`relative before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-0 before:bg-primary before:rounded-md before:transition-[all_0.4s_ease_in] hover:before:w-full ${
+                  className={`relative before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-0 before:bg-primary before:rounded-md before:transition-[all_0.4s_ease_in] hover:before:w-[70%] tab:text-[18px] ${
                     router.pathname === link.link
                       ? "text-primary font-bold"
                       : "text-secondary"
@@ -46,7 +46,7 @@ const Header = ({}) => {
           <li className="hidden tab:block">
             <a
               href="#"
-              className="text-primary font-bold
+              className="text-primary font-bold text-[18px]
             "
             >
               Login
@@ -55,7 +55,7 @@ const Header = ({}) => {
           <li className="hidden tab:block mt-3">
             <a
               href="#"
-              className="py-[16px] text-white font-bold px-[28px] bg-primary rounded-[100px]"
+              className="py-[16px] text-white font-bold px-[28px] bg-primary rounded-[100px] text-[18px]"
             >
               Signup
             </a>

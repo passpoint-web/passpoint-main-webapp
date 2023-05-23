@@ -12,7 +12,7 @@ textarea,
 button,
 select,
 a {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent !important;
 }
 @layer base {
   body,
@@ -31,11 +31,12 @@ a {
   .head-clip {
     clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
   }
-  .board-clip {
-    clip-path: circle(74.5% at 52% -4%);
+  .primaryFilter {
+    filter: invert(45%) sepia(87%) saturate(2547%) hue-rotate(161deg)
+      brightness(94%) contrast(101%);
   }
-  .transition {
-    transition: all 0.3 cubic-bezier(0.645, 0.045, 0.355, 1);
+  .transition-g {
+    transition: all 0.3s ease-in-out !important;
   }
   .gridCol {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
@@ -46,10 +47,9 @@ a {
     transition: all 0.5s ease-in-out;
   }
   .borderAttributes:hover {
-    background-color: transparent;
+    background-color: transparent !important;
   }
   .transHeight {
     transition: height 0.2s ease;
-    /* will-change: height; */
   }
 }

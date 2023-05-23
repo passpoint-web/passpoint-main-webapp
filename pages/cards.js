@@ -11,18 +11,16 @@ import Head from "next/head";
 const Cards = () => {
   return (
     <>
-       <Head>
+      <Head>
         <title>Cards - Passpoint</title>
       </Head>
-      <MainLayout>
-        <Hero />
-        <CardTrip />
-        <CardType />
-        <CreateCard />
-        <Security />
-        <Download card />
-        <Subscribe />
-      </MainLayout>
+      <Hero />
+      <CardTrip />
+      <CardType />
+      <CreateCard />
+      <Security />
+      <Download card />
+      <Subscribe />
     </>
   );
 };

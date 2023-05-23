@@ -4,7 +4,7 @@ import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
 import { useState } from "react";
 
-const Slider = () => {
+const Slider = ({text}) => {
   const [position, setPosition] = useState("next");
 
   return (
@@ -15,7 +15,7 @@ const Slider = () => {
             TESTIMONIALS
           </h3>
           <h2 className="text-secondary text-[32px] font-semibold w-[65%] mt-[20px] leading-[129%] tab:text-[18px]">
-            What Our Customers Say About Us
+            {text}
           </h2>
         </section>
       </div>

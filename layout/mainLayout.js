@@ -1,14 +1,5 @@
-import Footer from "@/components/ui/footer";
-import Header from "@/components/ui/header";
-
 const MainLayout = ({ children }) => {
-  return (
-    <div>
-      <Header />
-      {children}
-      <Footer />
-    </div>
-  );
+  return <main>{children}</main>;
 };
 
 export default MainLayout;

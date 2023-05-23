@@ -24,6 +24,12 @@ import Team from "../public/assets/images/cardAbout/team.png";
 import Contact1 from "../public/assets/images/cardAbout/contact-1.svg";
 import Contact2 from "../public/assets/images/cardAbout/contact-2.svg";
 import Contact3 from "../public/assets/images/cardAbout/contact-3.svg";
+import goWhy1 from "../public/assets/images/cardAbout/why-1.svg";
+import goWhy2 from "../public/assets/images/cardAbout/why-2.svg";
+import goWhy3 from "../public/assets/images/cardAbout/why-3.svg";
+import goWhy4 from "../public/assets/images/cardAbout/why-4.svg";
+import goWhy5 from "../public/assets/images/cardAbout/why-5.svg";
+import goWhy6 from "../public/assets/images/cardAbout/why-6.svg";
 
 export const navData = [
   {
@@ -46,16 +52,19 @@ export const navData = [
 
 export const whyData = [
   {
+    data: "zoom-out-right",
     image: Why1,
     title: "Plan Trip",
     text: "You can travel anytime and anywhere at your own convenience we help with your accomodations ,tickets and many more",
   },
   {
+    data: "zoom-out",
     image: Why2,
     title: "Easy Booking",
     text: "You can pay for your bookings, No barriers on currency type, Just fund your wallet and card with your preferred currency and pay for anything",
   },
   {
+    data: "zoom-out-left",
     image: Why3,
     title: "Plan Trip",
     text: "You can travel anytime and anywhere at your own convenience we help with your accomodations ,tickets and many more",
@@ -82,31 +91,37 @@ export const worksData = [
 
 export const serviceData = [
   {
+    data: "zoom-in-right",
     image: Service1,
     title: "Book Flight Ticket",
     text: "Search for and buy your flight ticket at alternatives airlines. We allow you see prices and make purchase throughout the entire booking process.",
   },
   {
+    data: "zoom-in",
     image: Service2,
     title: "Hotel Reservation",
     text: "You can easily book hotel accommodation for your travel trip in any location. we give you informations on hotels that has major international standard.",
   },
   {
+    data: "zoom-in-left",
     image: Service3,
     title: "Create & Manage Cards",
     text: " You can get your preferred card either virtual or physical cards and view card transaction history, fund card, set transaction limits and many more.",
   },
   {
+    data: "zoom-in-right",
     image: Service4,
     title: "Plan Trip",
     text: "Create trip and set your trip requirements towards a target savings. The funds will be locked and it will only be released at the maturity date.",
   },
   {
+    data: "zoom-in",
     image: Service5,
     title: "Bill Payment",
     text: "Buy International airtime & data, air tickets, hotel and load cards on the passpoint app",
   },
   {
+    data: "zoom-in-left",
     image: Service6,
     title: "Wallet Management",
     text: "You can create multiple currency wallets and also for fiat, fund wallet from gift cards, bank transfer, USDT wallet and transfer across user account wallet and to currency bank account.",
@@ -213,39 +228,78 @@ export const aboutData = [
 
 export const valueData = [
   {
+    data: "fade-up-right",
     image: Value1,
     title: "Honesty",
     text: "For us as a company, it is very important that the information provided to our customers is honest and true. This value is what makes us different and helps us to make decisions based on firm and true facts.",
   },
   {
+    data: "fade-up-left",
     image: Value2,
     title: "Service Quality",
     text: "Service quality is one of our most important values which demands all our effort, determination and courage to be successful in what we are doing and the services we are providing.",
   },
   {
+    data:"fade-up-right",
     image: Value3,
     title: "Communication",
     text: "We interact transparently and appropriately, trying to strengthen our interpersonal relations and the image of the company.",
   },
   {
+    data:"fade-up-left",
     image: Value4,
     title: "Team Work",
     text: "we have built a team that works result-oriented, unifying talent and give and take to respect and join different opinions, knowledge and abilities because teamwork and mutual support build the foundation of our relationship.",
   },
 ];
+export const goWhyData = [
+  {
+    image: goWhy1,
+    title: "Easy-to-use website builder",
+    text: "Passpoint Go offers user-friendly website builder that enables business owners to create stunning online presence with ease without any technical skills required.",
+  },
+  {
+    image: goWhy2,
+    title: "Powerful Marketing Tool",
+    text: "The platform offers a variety of marketing tools that can help business owners promote their services to new audiences, boost their online visibility, and grow their brand.",
+  },
+  {
+    image: goWhy3,
+    title: "Customizable Templates",
+    text: "Passpoint Go provides customizable templates that can be tailored to the specific needs and preferences of each business owner, ensuring that their online presence truly reflects their unique vision and mission.",
+  },
+  {
+    image: goWhy4,
+    title: "Expert Support Team",
+    text: "The platform’s expert support team is available to provide assistance and guidance to business owners as they create and promote their online services, helping them overcome any challenges they may face along the way.",
+  },
+  {
+    image: goWhy5,
+    title: "Easy Payment",
+    text: "Passpoint Go provide seamless payment gateway that support multiple forms of payments such as fiat and crypto payments and card payments.",
+  },
+  {
+    image: goWhy6,
+    title: "opportunity for Growth",
+    text: "Passpoint Go business owners can expand their reach and grow their brand in ways they never thought possible, reaching new audiences and driving revenue growth.",
+  },
+];
 
 export const teamData = [
   {
+    data: "500",
     image: Team,
     name: "Johnson David",
     title: "Co-Founder / CEO",
   },
   {
+    data: "1000",
     image: Team,
     name: "Johnson David",
     title: "Co-Founder / CEO",
   },
   {
+    data: "1500",
     image: Team,
     name: "Johnson David",
     title: "Co-Founder / CEO",
@@ -295,5 +349,49 @@ export const faqData = [
     question: "Can I have multiple wallets?",
     answer:
       "With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments.",
+  },
+];
+
+export const countData = [
+  {
+    num: 20,
+    sign: "+",
+    text: "we operate in over 20+ countries and regions",
+  },
+  {
+    num: 200,
+    sign: "K",
+    text: "We have over 200k trusted users worldwide",
+  },
+  {
+    num: 20,
+    sign: "+",
+    text: "Supported fiat curriencies",
+  },
+  {
+    num: 100,
+    sign: "",
+    text: "We complete over 100 transactions per second",
+  },
+];
+
+export const goWorkData = [
+  {
+    background: "rgba(0,78,98,1)",
+    num: "01",
+    title: "Create Account",
+    text: "Register your business with us today, which takes less than a minute.",
+  },
+  {
+    background: "#A40235",
+    num: "02",
+    title: "Upload Business Documents",
+    text: "Upload your business documents and valid information for authentication to secure your business account.",
+  },
+  {
+    background: "#AD7A02",
+    num: "03",
+    title: "Create Your Business Services",
+    text: "Start creating  your business services to your customers.",
   },
 ];

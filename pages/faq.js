@@ -10,10 +10,8 @@ const Faq = () => {
       <Head>
         <title>Faqs - Passpoint</title>
       </Head>
-      <MainLayout>
-        <Hero />
-        <Accordion />
-      </MainLayout>
+      <Hero />
+      <Accordion />
     </>
   );
 };

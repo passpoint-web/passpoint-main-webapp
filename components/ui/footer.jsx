@@ -5,7 +5,6 @@ import Twitter from "../../public/assets/images/landing/twitter.svg";
 import Instagram from "../../public/assets/images/landing/instagram.svg";
 import LinkedIn from "../../public/assets/images/landing/linkedIn.svg";
 import Fb from "../../public/assets/images/landing/fb.svg";
-/* eslint-disable @next/next/no-img-element */
 
 const Footer = () => {
   return (
@@ -80,7 +79,7 @@ const Footer = () => {
             <li>Virtual Card</li>
             <li>Physical Card</li>
             <li>
-              <Link href="" legacyBehavior>
+              <Link href="/passpoint-go" legacyBehavior>
                 <a className="text-white text-[14px] sm:text-[13px]">
                   Passpoint Go
                 </a>

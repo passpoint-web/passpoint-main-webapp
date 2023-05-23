@@ -20,6 +20,8 @@ const Partners = () => {
               width={200}
               key={i}
               alt="passpoint patners"
+              data-aos="fade-up"
+              data-aos-duration={i * `${500}`}
               className="h-auto w-[90%] tab:w-[30%]"
             />
           ))}

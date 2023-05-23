@@ -6,10 +6,10 @@ const Team = () => {
   return (
     <div className="w-full m-[80px_0_100px]">
       <div className="w-[85%] mx-auto md:w-[90%]">
-        <h3 className="text-[40px] text-center text-secondary font-bold md:text-[30px] tab:text-[24px]">
+        <h3 data-aos="fade-up" data-aos-duration="1000" className="text-[40px] text-center text-secondary font-bold md:text-[30px] tab:text-[24px]">
           Meet The Team Members
         </h3>
-        <p className="text-[16px] text-secondary text-center w-[50%] mx-auto mt-[10px] md:w-[80%] sm:w-full">
+        <p data-aos="fade-up" data-aos-duration="1000" className="text-[16px] text-secondary text-center w-[50%] mx-auto mt-[10px] md:w-[80%] sm:w-full">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi
           sagittis amet, neque diam non. Massa sit massa, penatibus lectus.{" "}
         </p>

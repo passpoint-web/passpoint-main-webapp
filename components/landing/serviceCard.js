@@ -1,9 +1,8 @@
 import Image from "next/image";
-import { motion } from "framer-motion";
 
-const ServiceCard = ({ image, title, text }) => {
+const ServiceCard = ({ image, title, text, data }) => {
   return (
-    <div className="group bg-white p-[32px] rounded-[16px] border border-solid border-[#ebebeb] hover:bg-primary hover:border-primary cursor-context-menu hover:scale-[1.03] transition-all ease-in-out duration-500 tab:max-w-[385px] sm:p-[30px]">
+    <div data-aos={data} className="group bg-white p-[32px] rounded-[16px] border border-solid border-[#ebebeb] hover:bg-primary hover:border-primary cursor-context-menu hover:scale-[1.03] transition-g tab:max-w-[385px] sm:p-[30px]">
       <div className="w-fit bg-white p-[20px_16px] shadow-[0px_12px_40px_rgba(0,0,0,0.08)] rounded-[16px]">
         <Image
           src={image}

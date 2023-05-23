@@ -3,7 +3,7 @@ import React from "react";
 
 const SafetyCard = ({ image, title, text }) => {
   return (
-    <div>
+    <div data-aos="fade-up">
       <div className="flex items-center mb-[14px]">
         <Image
           src={image}
