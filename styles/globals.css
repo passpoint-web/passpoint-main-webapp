@@ -18,7 +18,7 @@ a {
   body,
   html {
     font-family: "Montserrat", sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth!important;
   }
   p,
   a {
