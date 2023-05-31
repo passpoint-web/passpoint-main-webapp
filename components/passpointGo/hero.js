@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import Go from "../../public/assets/images/cardAbout/go-hero.png";
-import Go2 from "../../public/assets/images/landing/full-board.png";
+import Go from "../../public/assets/images/cardAbout/go-hero.webp";
+import Go2 from "../../public/assets/images/landing/full-board.webp";
 import { HiOutlineArrowSmallRight } from "react-icons/hi2";
 
 const Hero = () => {

@@ -15,13 +15,16 @@ const Header = () => {
     >
       <header className="w-[85%] mx-auto flex justify-between items-center gap-[20px] md:w-[90%] ">
         <Link href="/" legacyBehavior>
-          <Image
-            src="/assets/images/landing/logo-1.svg"
-            width={119}
-            height={31}
-            alt="passpoint logo"
-            className="tab:w-[100px] tab:h-auto cursor-pointer"
-          />
+          <a onClick={() => setOpenNav(false)}>
+            <Image
+              priority
+              src="/assets/images/landing/logo-1.svg"
+              width={119}
+              height={31}
+              alt="passpoint logo"
+              className="tab:w-[100px] tab:h-auto cursor-pointer"
+            />
+          </a>
         </Link>
         <ul
           className={`flex items-center gap-[50px] transform transition duration-300 ease-in-out md:gap-[25px] tab:fixed tab:bg-white tab:px-[5vw] tab:pt-[20px] tab:z-[200] tab:w-full tab:h-screen tab:top-[64px] tab:left-0 tab:flex-col tab:justify-start tab:items-start tab:translate-x-[-100%] sm:px ${

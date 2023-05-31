@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImage from "../../public/assets/images/cardAbout/phone-card.png";
+import HeroImage from "../../public/assets/images/cardAbout/phone-card.webp";
 
 const cardDetail = [
   {
@@ -34,7 +34,6 @@ const CardInfo = () => {
         {cardDetail.map((card, id) => (
           <div
             data-aos="fade-up"
-            data-aos-anchor-placement="top-center"
             key={id}
             className={`w-full ${card.bg} gap-[30px] ${card.border} border rounded-[16px] p-[32px_24px] md:p-[20px_16px]`}
           >

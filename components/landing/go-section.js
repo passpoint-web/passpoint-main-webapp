@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Ipad from "../../public/assets/images/landing/go-ipad.png";
+import Ipad from "../../public/assets/images/landing/go-ipad.webp";
 
 const GoSection = () => {
   return (

@@ -20,7 +20,7 @@ import Value1 from "../public/assets/images/cardAbout/value-1.svg";
 import Value2 from "../public/assets/images/cardAbout/value-2.svg";
 import Value3 from "../public/assets/images/cardAbout/value-3.svg";
 import Value4 from "../public/assets/images/cardAbout/value-4.svg";
-import Team from "../public/assets/images/cardAbout/team.png";
+import Team from "../public/assets/images/cardAbout/team.webp";
 import Contact1 from "../public/assets/images/cardAbout/contact-1.svg";
 import Contact2 from "../public/assets/images/cardAbout/contact-2.svg";
 import Contact3 from "../public/assets/images/cardAbout/contact-3.svg";

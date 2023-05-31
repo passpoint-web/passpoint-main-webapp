@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Join from "../../public/assets/images/landing/join-phone.png";
+import Join from "../../public/assets/images/landing/join-phone.webp";
 import Play from "../../public/assets/images/landing/play-store.svg";
 import Apple from "../../public/assets/images/landing/apple-store.svg";
 

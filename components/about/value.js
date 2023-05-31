@@ -6,10 +6,16 @@ const Value = () => {
   return (
     <div className="w-full">
       <div className="w-[85%] mx-auto md:w-[90%]">
-        <h2 data-aos="fade-up" data-aos-duration="1000" className="text-[40px] text-center text-secondary font-bold md:text-[35px] tab:text-[24px]">
+        <h2
+          data-aos="fade-up"
+          className="text-[40px] text-center text-secondary font-bold md:text-[35px] tab:text-[24px]"
+        >
           Our Values
         </h2>
-        <p data-aos="fade-up" data-aos-duration="1000" className="text-[16px] text-center text-secondary w-[50%] mx-auto mt-[16px] md:w-[80%] tab:w-[90%] sm:w-[100%]">
+        <p
+          data-aos="fade-up"
+          className="text-[16px] text-center text-secondary w-[50%] mx-auto mt-[16px] md:w-[80%] tab:w-[90%] sm:w-[100%]"
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi
           sagittis amet, neque diam non. Massa sit massa, penatibus lectus.{" "}
         </p>

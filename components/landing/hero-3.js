@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Board from "../../public/assets/images/landing/hero-board.png";
-import FullBoard from "../../public/assets/images/landing/full-board.png";
+import Board from "../../public/assets/images/landing/hero-board.webp";
+import FullBoard from "../../public/assets/images/landing/full-board.webp";
 import Image from "next/image";
 
 const Hero3 = () => {

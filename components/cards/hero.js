@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImage from "../../public/assets/images/cardAbout/hero-card.png";
+import HeroImage from "../../public/assets/images/cardAbout/hero-card.webp";
 import Play from "../../public/assets/images/landing/play-store.svg";
 import Apple from "../../public/assets/images/landing/apple-store.svg";
 import { motion } from "framer-motion";

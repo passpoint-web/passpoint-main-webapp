@@ -101,14 +101,14 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="" legacyBehavior>
+              <Link href="/terms_and_conditions" legacyBehavior>
                 <a className="text-white text-[14px] sm:text-[13px]">
                   Terms & Condition
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="" legacyBehavior>
+              <Link href="/privacy_policy" legacyBehavior>
                 <a className="text-white text-[14px] sm:text-[13px]">
                   Privacy Policy
                 </a>

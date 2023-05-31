@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeroImage from "../../public/assets/images/cardAbout/circle-card.png";
+import HeroImage from "../../public/assets/images/cardAbout/circle-card.webp";
 import Link from "next/link";
 
 const CardTrip = () => {

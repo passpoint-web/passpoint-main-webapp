@@ -1,7 +1,7 @@
 import Image from "next/image";
-import PhoneHero from "../../public/assets/images/landing/hero-phone.png";
-import PhoneHero2 from "../../public/assets/images/landing/hero-join.png";
-import CardHero from "../../public/assets/images/landing/hero-card.png";
+import PhoneHero from "../../public/assets/images/landing/hero-phone.webp";
+import PhoneHero2 from "../../public/assets/images/landing/hero-join.webp";
+import CardHero from "../../public/assets/images/landing/hero-card.webp";
 import Play from "../../public/assets/images/landing/play-store.svg";
 import Apple from "../../public/assets/images/landing/apple-store.svg";
 

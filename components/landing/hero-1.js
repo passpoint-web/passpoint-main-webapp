@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
-import HeroImage from "../../public/assets/images/landing/hero-image-2.png";
+import HeroImage from "../../public/assets/images/landing/hero-image-2.webp";
 import PlayStore from "../../public/assets/images/landing/play-store.svg";
 import AppleStore from "../../public/assets/images/landing/apple-store.svg";
 
