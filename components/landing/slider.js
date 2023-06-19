@@ -9,7 +9,7 @@ const Slider = ({text}) => {
 
   return (
     <div className="w-full my-[76px]">
-      <div className="w-[85%] mx-auto flex justify-between items-center md:w-[90%]">
+      <div className="w-[85%] mx-auto flex justify-between items-center md:w-[90%] head-clip">
         <section>
           <h3 className="text-secondary text-[24px] font-semibold tab:text-[16px]">
             TESTIMONIALS
@@ -20,7 +20,7 @@ const Slider = ({text}) => {
         </section>
       </div>
       <div
-        className="pl-[6vw] relative tab:pl-[0] tab:w-[90%] tab:mx-auto"
+        className="pl-[7vw] relative tab:pl-[0] tab:w-[90%] tab:mx-auto"
         aria-label="myArrow"
       >
         <Splide

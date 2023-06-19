@@ -9,13 +9,13 @@ const Hero3 = () => {
       <div className="w-[85%] mx-auto md:w-[90%]">
         <section className="text-center">
           <h1 className="w-[70%] mx-auto text-[3.16vw] text-white font-bold leading-[66.43px] md:leading-[50px] tab:text-[5vw] tab:w-[100%] sm:text-[24px] sm:leading-[30px]">
-            Access Seamless payment services for your with{" "}
+            Launch Your Own Unique Online-Travel Service Platform Instantly With{" "}
             <span className="text-pink">passpoint GO</span>
           </h1>
           <p className="w-[43%] mx-auto text-white my-[16px] mb-[30px] leading-[24.66px] text-[14px] md:w-[80%] tab:w-full tab:mb-[60px]">
-            Plan trips on your own convenience without currency type barriers,
-            with your preferred currency wallet you can pay & purchase for
-            anything on your travel trips.
+            Access and provide global financial, logistics travel services, and
+            travel management services as a Travel Agent and Travel Management
+            firm, Global employer, Large enterprise, public service and NGO.
           </p>
           <Link href="/passpoint-go" legacyBehavior>
             <a className="py-[16px] px-[32px] text-white bg-pink rounded-[100px] font-bold border-pink borderAttributes text-[16px] hover:text-pink ">
@@ -28,8 +28,7 @@ const Hero3 = () => {
         <Image
           src={Board}
           width={1200}
-          height={0}
-          className={`w-full tab:hidden`}
+          className={`w-full tab:hidden h-auto`}
           placeholder="blur"
           alt="passpoint board"
         />
@@ -37,8 +36,7 @@ const Hero3 = () => {
           src={FullBoard}
           placeholder="blur"
           width={1200}
-          height={834}
-          className="hidden tab:block"
+          className="hidden h-auto tab:block"
           alt="passpoint board"
         />
       </section>

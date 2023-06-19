@@ -10,7 +10,7 @@ const Hero = () => {
             <h2 className={`text-center ${item.textSize} mb-[30px]`}>
               {item.title}
             </h2>
-            <p className="text-[16px]">{item.text}</p>
+            <p className="text-[16px] text-center">{item.text}</p>
           </div>
         ))}
       </div>

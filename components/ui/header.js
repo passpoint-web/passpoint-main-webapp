@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import Menu from "./menu.-button";
+import Logo from "../../public/assets/images/landing/logo.png";
 
 const Header = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -18,10 +19,9 @@ const Header = () => {
           <a onClick={() => setOpenNav(false)}>
             <Image
               priority
-              src="/assets/images/landing/logo-1.svg"
-              width={119}
-              height={31}
+              src={Logo}
               alt="passpoint logo"
+              width={119}
               className="tab:w-[100px] tab:h-auto cursor-pointer"
             />
           </a>
@@ -35,7 +35,7 @@ const Header = () => {
             <li key={id} onClick={() => setOpenNav(false)}>
               <Link href={link.link} legacyBehavior>
                 <a
-                  className={`relative before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[1.5px] before:w-0 before:bg-primary before:rounded-md before:transition-[all_0.4s_ease_in] hover:before:w-[70%] tab:text-[18px] ${
+                  className={`relative pb-1 before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[3px] before:w-0 before:bg-primary before:transition-[all_0.4s_ease_in] hover:before:w-full tab:text-[18px] ${
                     router.pathname === link.link
                       ? "text-primary font-bold"
                       : "text-secondary"

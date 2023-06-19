@@ -472,14 +472,25 @@ export const privacyData = [
     text: "If you have any questions about this privacy policy or treatment of your personal information, please write:",
     list: (
       <>
-        <li>by email to info@hello@mypasspoint.com or</li>
+        <li>
+          by email to{" "}
+          <a
+            href="mailto:hello@mypasspoint.com"
+            className="text-primary inline"
+          >
+            hello@mypasspoint.com
+          </a>{" "}
+          or
+        </li>
         <li>by post to</li>
       </>
     ),
     unlist: (
       <>
         <li className="font-bold">PASSPOINT LTD</li>
-        <li className="font-semibold">NO 15 FUBARA DUBLIN GREEN STREET IGBOEFON, LEKKI, LAGOS STATE</li>
+        <li className="font-semibold">
+          NO 15 FUBARA DUBLIN GREEN STREET IGBOEFON, LEKKI, LAGOS STATE
+        </li>
       </>
     ),
   },

@@ -54,20 +54,20 @@ export const whyData = [
   {
     data: "zoom-out-right",
     image: Why1,
-    title: "Plan Trip",
-    text: "You can travel anytime and anywhere at your own convenience we help with your accomodations ,tickets and many more",
+    title: "All in one travel platform",
+    text: "Simplified access to robust travel services curated for individuals and businesses from a single travel platform.",
   },
   {
     data: "zoom-out",
     image: Why2,
-    title: "Easy Booking",
-    text: "You can pay for your bookings, No barriers on currency type, Just fund your wallet and card with your preferred currency and pay for anything",
+    title: "Unique Financial Travel Services",
+    text: "Access local financial rails of your travel destination, make and receive payments through our multi-currency wallets and cards.",
   },
   {
     data: "zoom-out-left",
     image: Why3,
-    title: "Plan Trip",
-    text: "You can travel anytime and anywhere at your own convenience we help with your accomodations ,tickets and many more",
+    title: "Supercharge your travel service offering",
+    text: "Leverage passpoint go to provide global travel services to your clients and employees.",
   },
 ];
 
@@ -129,6 +129,14 @@ export const serviceData = [
 ];
 
 export const sliderData = [
+  {
+    image: Customer,
+    title: "Tolu Oye",
+    position: "Product Designer",
+    text: " I use passpoint for all my business trips andd vacations, easy bookings and seamless card payment. It’s really a good app, i will recommend it for anyone to plan their travel trips anywhere in the world.",
+    time: "8:30 PM - Jun 05, 2022",
+    rate: [Star, Star, Star, Star, StarFade],
+  },
   {
     image: Customer,
     title: "Tosin David",
@@ -212,17 +220,27 @@ export const aboutData = [
     textSize:
       "text-center font-bold text-[2.5vw] md:text-[4vw] tab:text-[5.2vw]",
     title: "About Us",
-    text: "At passpoint, we make your travel a more rewarding experience for you by providing you with all you need for your dream trip. We make payments simple and accessible with NO barrier on currency type in your destination country with secured and payment gateways.",
+    text: (
+      <>
+        {
+          "Passpoint is a travel technology company that provides unique technology driven travel services from a single platform for Digital Nomads, Tourists, Travel Agencies and Travel Management Companies."
+        }
+        <br />
+        {
+          "Passpoint empowers global citizens with a global digital wallet and other travel services for real time access within their choice destination."
+        }
+      </>
+    ),
   },
   {
     textSize: "text-center font-bold text-[1.5vw] md:text-[18px]",
     title: "Our Vision",
-    text: "Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren.Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena.",
+    text: "To be the leading provider of technology driven services and solutions for the travel and mobility industry.",
   },
   {
     textSize: "text-center font-bold text-[1.5vw] md:text-[18px]",
     title: "Our Mission",
-    text: "Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren.Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena. Divis gigaliga makroren. Lörem ipsum matkasse pösärade, kende. Oliga av tir. Memil novent. Krokären antivalens kadena.  ",
+    text: "To enable frequent travelers, migrants and digital nomads to operate in a globalized world by accessing key lifestyle services.",
   },
 ];
 
@@ -240,13 +258,13 @@ export const valueData = [
     text: "Service quality is one of our most important values which demands all our effort, determination and courage to be successful in what we are doing and the services we are providing.",
   },
   {
-    data:"fade-up-right",
+    data: "fade-up-right",
     image: Value3,
     title: "Communication",
     text: "We interact transparently and appropriately, trying to strengthen our interpersonal relations and the image of the company.",
   },
   {
-    data:"fade-up-left",
+    data: "fade-up-left",
     image: Value4,
     title: "Team Work",
     text: "we have built a team that works result-oriented, unifying talent and give and take to respect and join different opinions, knowledge and abilities because teamwork and mutual support build the foundation of our relationship.",
@@ -315,7 +333,7 @@ export const contactData = [
   {
     image: Contact2,
     title: "Email Address",
-    text: "Passpoint@gmail.com",
+    text: "hello@mypasspoint.com",
   },
   {
     image: Contact3,

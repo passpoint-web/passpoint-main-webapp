@@ -23,10 +23,18 @@ const Footer = () => {
               <a href="http://" target="_blank" rel="noopener noreferrer">
                 <Image src={Twitter} alt="passpoint twitter" />
               </a>
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://instagram.com/mypasspoint"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image src={Instagram} alt="passpoint instagram" />
               </a>
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/company/mypasspoint"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image src={LinkedIn} alt="passpoint linkedIn" />
               </a>
               <a href="http://" target="_blank" rel="noopener noreferrer">

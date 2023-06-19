@@ -12,13 +12,13 @@ const Works = () => {
         >
           How It Works
         </h2>
-        <p
+        {/* <p
           data-aos="fade-up"
           className="w-[45%] mx-auto text-[16px] mt-2 text-white md:w-[90%] sm:w-[100%] sm:text-[14px]"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi
           sagittis amet, neque diam non. Massa sit massa, penatibus lectus.{" "}
-        </p>
+        </p> */}
         <div className="w-full grid grid-cols-fluid gap-[150px] mt-[38px] md:gap-[50px] sm:gridCol">
           {worksData.map((item, id) => (
             <WorksCard {...item} key={id} />

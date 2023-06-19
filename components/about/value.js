@@ -16,8 +16,7 @@ const Value = () => {
           data-aos="fade-up"
           className="text-[16px] text-center text-secondary w-[50%] mx-auto mt-[16px] md:w-[80%] tab:w-[90%] sm:w-[100%]"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi
-          sagittis amet, neque diam non. Massa sit massa, penatibus lectus.{" "}
+          Our value drives our commitment to our clients and partners
         </p>
         <div className="grid grid-cols-fluidLarge gap-[60px] mt-[50px] tab:gap-[40px] tab:gridCol">
           {valueData.map((item, id) => (

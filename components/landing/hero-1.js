@@ -28,15 +28,16 @@ const Hero1 = () => {
             }}
             className="text-[4vw] font-bold leading-[138.5%] tab:text-[6vw]"
           >
-            Travel Anywhere, Anytime With seamless payment Gateways{" "}
+            Access Unique Travel-Service Designed For Seamless Travels
           </motion.h1>
           <motion.p
             variants={itemVariants}
             className="text-[20px] font-medium text-secondary my-[24px] tab:text-[16px] sm:text-[14px]"
           >
-            Plan trips on your own convenience without currency type barriers,
-            with your preferred currency wallet you can pay & purchase for
-            anything on your travel trips.
+            Seamlessly move and operate across time-zones and countries. Plan
+            your travel logistics end to end, maintain multi-currency wallets,
+            access destination lifestyle services, tours, and much more. Enjoy
+            our embedded travel advisory service when planning your trips.
           </motion.p>
           <motion.div
             variants={itemVariants}

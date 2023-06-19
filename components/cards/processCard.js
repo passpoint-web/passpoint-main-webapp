@@ -3,7 +3,7 @@ import React from "react";
 
 const ProcessCard = ({image, title, text}) => {
   return (
-    <div className="rounded-[16px] text-center flex flex-col items-center tab:max-w-[389px]">
+    <div className="rounded-[16px] text-center flex flex-col items-center">
       <Image
         priority
         alt="passpoit card process"

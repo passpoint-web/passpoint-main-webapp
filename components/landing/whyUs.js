@@ -8,7 +8,7 @@ const WhyUs = () => {
         <h2 className="text-[2.5vw] font-[600] text-secondary text-center tab:text-[5vw] sm:text-[24px]">
           Why Choose Passpoint?
         </h2>
-        <div className="w-full mx-auto mt-[60px] grid grid-cols-fluid gap-[16px] justify-items-center sm:mt-[40px] sm:gridCol">
+        <div className="w-full mx-auto mt-[60px] grid grid-cols-fluid gap-[24px] justify-items-center sm:mt-[40px] sm:gridCol">
           {whyData.map((item, id) => (
             <WhyUsCard {...item} key={id} />
           ))}

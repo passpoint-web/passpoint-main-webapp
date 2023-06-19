@@ -12,7 +12,7 @@ const CreateCard = () => {
         <p className="text-[16px] text-secondary text-center w-[45%] mx-auto tab:w-[100%]">
           Create your virtual card in 3 simple ways{" "}
         </p>
-        <div className="w-full mt-[30px] grid grid-cols-fluid gap-[50px] sm:gap-[40px] sm:gridCol">
+        <div className="w-full mt-[30px] grid grid-cols-fluid gap-[50px] sm:gap-[40px] tab:gridCol">
           {createData.map((item, id) => (
             <ProcessCard {...item} key={id} />
           ))}

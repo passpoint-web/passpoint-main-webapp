@@ -32,9 +32,10 @@ const Hero = () => {
           </motion.h1>
           <motion.p
             variants={itemVariants}
-            className="text-[20px] w-[60%] font-medium text-secondary my-[24px] md:w-[80%] sm:w-[100%] tab:text-[16px] sm:text-[14px]"
+            className="text-[20px] w-[80%] font-medium text-secondary my-[24px] md:w-[80%] sm:w-[100%] tab:text-[16px] sm:text-[14px]"
           >
-            Card management to help you with all your travel transactions
+            Energize your travel with your passpoint cards. make local and
+            global payments
           </motion.p>
           <motion.div
             variants={itemVariants}
