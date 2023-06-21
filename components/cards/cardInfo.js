@@ -24,16 +24,12 @@ const CardInfo = () => {
           <div
             data-aos="fade-up"
             key={id}
-            className={`w-full bg-white gap-[30px] border border-[#bebebe] rounded-[16px] p-[32px_24px] group hover:bg-[rgba(0,158,197,0.05)] hover:border-[rgba(0,158,197,0.05)] transition-g md:p-[20px_16px]`}
+            className="w-full bg-white gap-[30px] border border-[#bebebe] rounded-[16px] p-[32px_24px] group hover:bg-[rgba(0,158,197,0.05)] hover:border-[rgba(0,158,197,0.05)] transition-g md:p-[20px_16px]"
           >
-            <span
-              className={`text-[2vw] w-fit block font-medium bg-[#dfdfdf] transition-g group-hover:bg-[rgba(0,158,197,0.25)] text-secondary group-hover:text-primary p-[8px_24px] rounded-[16px] tab:text-[16px]`}
-            >
+            <span className="text-[2vw] w-fit block font-medium bg-[#dfdfdf] transition-g group-hover:bg-[rgba(0,158,197,0.25)] text-secondary group-hover:text-primary p-[8px_24px] rounded-[16px] tab:text-[16px]">
               {card.num}
             </span>
-            <h3
-              className={`text-[1.5vw] font-bold text-secondary transition-g group-hover:text-primary m-[24px_0_16px] md:text-[18px] md:m-[18px_0_14px] sm:text-[16px] sm:m-[14px_0_14px]`}
-            >
+            <h3 className="text-[1.5vw] font-bold text-secondary transition-g group-hover:text-primary m-[24px_0_16px] md:text-[18px] md:m-[18px_0_14px] sm:text-[16px] sm:m-[14px_0_14px]">
               {card.card}
             </h3>
             <p className="text-[1.25vw] text-secondary leading-[150%] md:text-[14px]">
