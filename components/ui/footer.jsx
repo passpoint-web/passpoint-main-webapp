@@ -133,7 +133,7 @@ const Footer = () => {
                 href="mailto:passpoint@gmail.com"
                 className="text-white text-[14px] sm:text-[13px]"
               >
-                Email: passpoint@gmail.com
+                Email: hello@mypasspoint.com
               </a>
             </li>
             <li>
