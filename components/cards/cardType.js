@@ -13,7 +13,7 @@ const CardType = () => {
         </h2>
         <p className="text-[16px] text-secondary text-center w-[45%] mx-auto tab:w-[100%]">
           From entertainment, to subscriptions, to IT resources, and global
-          purchases, there's a passpoint card for you
+          purchases, there is a passpoint card for you
         </p>
         <div>
           <CardInfo />
