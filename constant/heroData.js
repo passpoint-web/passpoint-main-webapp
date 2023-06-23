@@ -236,7 +236,7 @@ export const aboutData = [
     image: About2,
     title: "Our Vision",
     reverse: true,
-    text: "To be the leading provider of technology driven services and solutions for the travel and mobility industry.",
+    text: "To simplify travel and enable seamless access to global opportunities for businesses and individuals.",
   },
   {
     image: About3,
@@ -349,27 +349,22 @@ export const faqData = [
   {
     question: "What is Passpoint?",
     answer:
-      "With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments.",
+      "Passpoint is a unique travel technology company that offers a unique blend of travel and mobility services for business, leisure, remote operations, migration and other travel needs. Book your trips and travel in style. Travel the Passpoint way.",
   },
   {
-    question: "What can i do with Passpoint?",
+    question: "Why Passpoint",
     answer:
-      "With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments.",
+      "The Passpoint side of life, empowers its users with the platform designed to support the highly mobile lifestyle of the frequent traveler through a carefully selected blend of financial travel services, logistics travel services (flights, hotels, cabs, airport protocol), lifestyle services, tours and tickets. What’s more, at Passpoint, we believe in continuous innovation. We are constantly and rapidly improving our services, to give you a seamless travel experience.",
   },
   {
-    question: "Safety & Security",
+    question: "Can I use Passpoint as a business",
     answer:
-      "With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments.",
+      "Absolutely. Passpoint go is designed for Travel Agents, Travel Management Companies, and other businesses who have travel and other mobility needs. It empowers you with access global access to the best collection of VIP travel services and other travel deals at amazing prices.",
   },
   {
-    question: "Can I pay with Crypto?",
+    question: "How much do I need to pay to access Passpoint go",
     answer:
-      "With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments. With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments. With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments. With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments.",
-  },
-  {
-    question: "Can I have multiple wallets?",
-    answer:
-      "With Passpoint you can travel around the world from a point of comfort and at a place of convenience. Passpoint make travel a rewarding experience for you by providing what you need for your trip, from flight to accomodation, tours and secured payments.",
+      "Access to Passpoint go is absolutely free. Simply sign up as a Travel Agent, Travel Management Company, an NGO, Public Service institution or an enterprise, and energise your operations with the power of Passpoint.",
   },
 ];
 
@@ -387,7 +382,7 @@ export const countData = [
   {
     num: 20,
     sign: "+",
-    text: "Supported fiat curriencies",
+    text: "Supported curriencies",
   },
   {
     num: 100,

@@ -6,10 +6,10 @@ import Apple from "../../public/assets/images/landing/apple-store.svg";
 const Download = ({ card }) => {
   return (
     <div className="w-full bg-white mt-[100px]">
-      <div className="w-[85%] mx-auto flex justify-between gap-[50px] md:w-[90%] tab:flex-col items-center">
+      <div className="w-[85%] mx-auto flex justify-between items-end gap-[50px] md:w-[90%] tab:flex-col">
         <div
           data-aos="fade-up"
-          className="w-[55%] md:w-[65%] tab:w-[100%] tab:text-center"
+          className="w-[55%] mb-[30px] md:w-[50%] tab:w-[100%] tab:text-center"
         >
           {card ? (
             <h2 className="text-[3.2vw] w-[90%] font-bold text-secondary leading-[4vw] md:w-[100%] tab:text-[35px] tab tab:text-center tab:leading-[35px] sm:text-[24px]">
@@ -23,7 +23,7 @@ const Download = ({ card }) => {
             </h2>
           )}
 
-          <p className="text-[16px] w-[80%] font-medium text-secondary m-[30px_0px_24px] md:w-[100%] md:m-[20px_0px_16px] md:text-[15px]">
+          <p className="text-[16px] w-[90%] font-medium text-secondary m-[30px_0px_24px] md:w-[100%] md:m-[20px_0px_16px] md:text-[15px]">
             Download our app to perform all your travel transactions at your own
             convenience and view all your travelling transactions history
             anywhere and anytime.
@@ -38,7 +38,7 @@ const Download = ({ card }) => {
                 width={200}
                 height={70}
                 alt="passpoint app download"
-                className="w-auto h-auto"
+                className="w-[200px] h-auto md:w-[150px]"
               />
             </a>
             <a href="#">
@@ -47,12 +47,12 @@ const Download = ({ card }) => {
                 width={200}
                 height={70}
                 alt="passpoint app download"
-                className="w-auto h-auto"
+                className="w-[200px] h-auto md:w-[150px]"
               />
             </a>
           </div>
         </div>
-        <div data-aos="fade-left" data-aos-duration="1000" className="w-[%40] flex justify-end md:w-[35%] tab:w-[100%] tab:justify-center">
+        <div data-aos="fade-left" data-aos-duration="1000" className="w-[%40] flex justify-end md:w-[50%] tab:w-[100%] tab:justify-center">
           <Image
             src={Join}
             width={563}

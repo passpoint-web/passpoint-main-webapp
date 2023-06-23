@@ -4,7 +4,7 @@ import ValueCard from "./valueCard";
 
 const Value = () => {
   return (
-    <div className="w-full">
+    <div className="w-full mb-[100px]">
       <div className="w-[85%] mx-auto md:w-[90%]">
         <h2
           data-aos="fade-up"
