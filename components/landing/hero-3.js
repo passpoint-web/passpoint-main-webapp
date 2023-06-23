@@ -12,7 +12,7 @@ const Hero3 = () => {
             Launch Your Own Unique Online-Travel Service Platform Instantly With{" "}
             <span className="text-pink">passpoint GO</span>
           </h1>
-          <p className="w-[43%] mx-auto text-white my-[16px] mb-[30px] leading-[24.66px] text-[14px] md:w-[80%] tab:w-full tab:mb-[60px]">
+          <p className="w-[60%] mx-auto text-white text-[16px] my-[16px] mb-[30px] leading-[24.66px] tab:text-[16px] md:w-[80%] tab:w-full tab:mb-[60px]">
             Access and provide global financial, logistics travel services, and
             travel management services as a Travel Agent and Travel Management
             firm, Global employer, Large enterprise, public service and NGO.

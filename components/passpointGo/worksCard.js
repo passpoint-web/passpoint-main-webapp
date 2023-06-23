@@ -2,7 +2,7 @@ import React from "react";
 
 const WorksCard = ({ background, num, text, title }) => {
   return (
-    <div className="group relative overflow rounded-[16px] text-center flex flex-col items-center p-[18px] tab:max-w-[389px]">
+    <div className="group relative overflow rounded-[16px] text-center flex flex-col items-center p-[18px]">
       <div
         className={`w-[80px] h-[80px] grid place-content-center text-white rounded-[100px] text-[32px] font-bold tab:w-[55px] tab:h-[55px] tab:text-[24px] `}
         style={{ background: `${background}`, border: `2px solid ${background}`, }}

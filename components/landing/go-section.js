@@ -12,7 +12,7 @@ const GoSection = () => {
             <span className="text-primary">Passpoint Go</span>
           </h2>
           <p className="text-[16px] w-[79%] text-white m-[16px_0_34px] md:w-[100%] sm:text-[15px]">
-            Paaspoint Go helps business owners to easily create and promote
+            Passpoint Go helps business owners to easily create and promote
             their services online and reaching new audiences and growing their
             brand in ways they never thought possible.
           </p>

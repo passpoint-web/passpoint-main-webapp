@@ -80,9 +80,9 @@ export const termsData = [
           "If you have any questions about your relationship with Passpoint, you can contact us via email using the details below:"
         }
         <br />
-        {"Email:"}
+        {"Email:"}{" "}
         <a href="mailto:hello@mypasspoint.io" className="text-primary">
-          hello@mypasspoint.io
+          hello@mypasspoint.com
         </a>
       </>
     ),

@@ -14,7 +14,7 @@ const whyUsCard = ({ image, title, text, data }) => {
         height={117}
         className="h-[100px]"
       />
-      <h3 className="text-[20px] font-[600] mt-[60px] mb-[16px] tab:mt-[26px]">
+      <h3 className="text-[20px] font-[600] mt-[60px] mb-[16px] tab:mt-[26px] tab:text-[18px]">
         {title}
       </h3>
       <p className="text-[16px] leading-[150%] text-secondary">{text}</p>

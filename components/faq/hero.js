@@ -2,6 +2,9 @@ import { RiSearch2Line } from "react-icons/ri";
 import { motion } from "framer-motion";
 
 const Hero = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <div className="w-full p-[150px_0_200px] bg-primary head-clip sm:p-[130px_0]">
       <motion.div
@@ -19,7 +22,7 @@ const Hero = () => {
             placeholder="Search"
             className="w-full h-full outline-none border-none placeholder:text-[#8a8c8e]"
           />
-          <button className="pl-[16px]">
+          <button onClick={handleSubmit} className="pl-[16px]">
             <RiSearch2Line className="w-[20px] h-[20px]" />
           </button>
         </form>

@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Partner1 from "../../public/assets/images/landing/partner-1.png";
-import Partner2 from "../../public/assets/images/landing/partner-2.png";
-import Partner3 from "../../public/assets/images/landing/partner-3.png";
-import Partner4 from "../../public/assets/images/landing/partner-4.png";
-import Partner5 from "../../public/assets/images/landing/partner-5.png";
+import Partner1 from "../../public/assets/images/landing/partner-1.svg";
+import Partner2 from "../../public/assets/images/landing/partner-2.svg";
+import Partner3 from "../../public/assets/images/landing/partner-3.svg";
+import Partner4 from "../../public/assets/images/landing/partner-4.svg";
+import Partner5 from "../../public/assets/images/landing/partner-5.svg";
 
 const partnerImage = [Partner1, Partner2, Partner3, Partner4, Partner5];
 const Partners = () => {
@@ -22,7 +22,7 @@ const Partners = () => {
               alt="passpoint patners"
               data-aos="fade-up"
               data-aos-duration={i * `${500}`}
-              className="h-auto w-[90%] tab:w-[30%]"
+              className="h-auto w-[90%] tab:w-[30%] sm:w-[40%]"
             />
           ))}
         </div>

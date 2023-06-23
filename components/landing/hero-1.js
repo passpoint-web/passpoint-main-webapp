@@ -32,7 +32,7 @@ const Hero1 = () => {
           </motion.h1>
           <motion.p
             variants={itemVariants}
-            className="text-[20px] font-medium text-secondary my-[24px] tab:text-[16px] sm:text-[14px]"
+            className="text-[20px] font-medium text-secondary my-[24px] tab:text-[16px]"
           >
             Seamlessly move and operate across time-zones and countries. Plan
             your travel logistics end to end, maintain multi-currency wallets,

@@ -35,9 +35,8 @@ const Hero = () => {
           variants={itemVariants}
           className="text-[18px] w-[80%] text-secondary font-medium m-[16px_0_34px] md:w-[100%] md:text-[16px] sm:text-[15px]"
         >
-          Paaspoint Go helps business owners to easily create and promote their
-          services online and reaching new audiences and growing their brand in
-          ways they never thought possible.
+          Paaspoint Go helps To simplify travel and enable seamless access to
+          global opportunities for businesses and individuals.
         </motion.p>
         <Link href="/passpoint-go" legacyBehavior>
           <a

@@ -3,7 +3,7 @@ const Subscribe = () => {
     e.preventDefault();
   };
   return (
-    <div className="w-full bg-lightBlue flex justify-center py-[50px] my-[60px]">
+    <div className="w-full bg-lightBlue flex justify-center py-[70px]">
       <form className="w-[60%] mx-auto flex flex-col item-center justify-center tab:w-[90%] ">
         <h2 className="text-[3.2vw] font-bold text-center tab:text-[5vw]">
           Subscribe To Our Newsletter

@@ -18,7 +18,7 @@ const Download = ({ card }) => {
             </h2>
           ) : (
             <h2 className="text-[3.2vw] w-[90%] font-bold text-secondary leading-[4vw] md:w-[100%] tab:text-[35px] tab tab:text-center tab:leading-[35px] sm:text-[24px]">
-              <span className="text-primary">Passspoint</span> is available on
+              <span className="text-primary">Passpoint</span> is available on
               all devices
             </h2>
           )}

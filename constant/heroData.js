@@ -30,6 +30,9 @@ import goWhy3 from "../public/assets/images/cardAbout/why-3.svg";
 import goWhy4 from "../public/assets/images/cardAbout/why-4.svg";
 import goWhy5 from "../public/assets/images/cardAbout/why-5.svg";
 import goWhy6 from "../public/assets/images/cardAbout/why-6.svg";
+import About1 from "../public/assets/images/cardAbout/about-1.png";
+import About2 from "../public/assets/images/cardAbout/about-2.webp";
+import About3 from "../public/assets/images/cardAbout/about-3.webp";
 
 export const navData = [
   {
@@ -47,6 +50,10 @@ export const navData = [
   {
     title: "Contact",
     link: "/contact",
+  },
+  {
+    title: "Passpoint Go",
+    link: "/passpoint-go",
   },
 ];
 
@@ -217,28 +224,24 @@ export const securityData = [
 
 export const aboutData = [
   {
-    textSize:
-      "text-center font-bold text-[2.5vw] md:text-[4vw] tab:text-[5.2vw]",
+    pad: "pt-[150px] mb-[100px] tab:pt-[100px]",
+    textSize: "text-[4vw] tab:text-[6.2vw]",
+    image: About1,
     title: "About Us",
-    text: (
-      <>
-        {
-          "Passpoint is a travel technology company that provides unique technology driven travel services from a single platform for Digital Nomads, Tourists, Travel Agencies and Travel Management Companies."
-        }
-        <br />
-        {
-          "Passpoint empowers global citizens with a global digital wallet and other travel services for real time access within their choice destination."
-        }
-      </>
-    ),
+    text: "At passpoint, we make your travel a more rewarding experience for you by providing you with all you need for your dream trip. We make payments simple and accessible with NO barrier on currency type in your destination country with secured and payment gateways.",
   },
   {
-    textSize: "text-center font-bold text-[1.5vw] md:text-[18px]",
+    pad: "mb-[100px]",
+    textSize: "text-[2.5vw] tab:text-[5vw]",
+    image: About2,
     title: "Our Vision",
+    reverse: true,
     text: "To be the leading provider of technology driven services and solutions for the travel and mobility industry.",
   },
   {
-    textSize: "text-center font-bold text-[1.5vw] md:text-[18px]",
+    image: About3,
+    pad: "mb-[100px]",
+    textSize: "text-[2.5vw] tab:text-[5vw]",
     title: "Our Mission",
     text: "To enable frequent travelers, migrants and digital nomads to operate in a globalized world by accessing key lifestyle services.",
   },
