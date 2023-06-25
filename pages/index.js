@@ -29,7 +29,7 @@ export default function Home() {
           arrows: false,
           pauseOnHover: false,
           autoplay: true,
-          interval: 4000,
+          interval: 7000,
           autoHeight: false,
           easing: ".4s ease-in",
         }}

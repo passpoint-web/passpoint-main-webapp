@@ -35,17 +35,19 @@ const AccordionItem = ({ faq, onToggle, active }) => {
   return (
     <li>
       <button
-        className={`w-full flex justify-between items-center gap-[20px] outline-none border-none`}
+        className={`w-full flex justify-between items-center gap-[30px] outline-none border-none`}
         onClick={onToggle}
       >
         <p className="text-[32px] text-left font-semibold text-primary md:text-[24px] sm:text-[18px]">
           {question}
         </p>
-        <HiOutlineChevronDown
-          className={`transition text-[20px] sm:text-[18px] ${
-            active ? "rotate-180 text-primary" : "text-[#292D32]"
-          }`}
-        />
+        <span>
+          <HiOutlineChevronDown
+            className={`transition text-[20px] sm:text-[18px] ${
+              active ? "rotate-180 text-primary" : "text-[#292D32]"
+            }`}
+          />
+        </span>
       </button>
       <div
         ref={contentEl}
