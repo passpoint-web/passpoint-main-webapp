@@ -16,7 +16,7 @@ const Footer = () => {
           </h3>
           <ul className="flex flex-col gap-5 text-[14px] sm:text-[13px] text-white">
             <li className="">
-              Plan trips on your own convenience without current type barriers
+              Plan trips on your own convenience without currency type barriers
               with your preferred currency wallet you can pay for anything.
             </li>
             <li className="inline-flex gap-[24px]">

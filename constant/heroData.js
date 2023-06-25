@@ -228,7 +228,7 @@ export const aboutData = [
     textSize: "text-[4vw] tab:text-[6.2vw]",
     image: About1,
     title: "About Us",
-    text: "At passpoint, we make your travel a more rewarding experience for you by providing you with all you need for your dream trip. We make payments simple and accessible with NO barrier on currency type in your destination country with secured and payment gateways.",
+    text: "At passpoint, we make your travel a more rewarding experience for you by providing you with all you need for your dream trip. We make payments simple and accessible with NO barrier on currency type in your destination country with secured payment gateways.",
   },
   {
     pad: "mb-[100px]",
