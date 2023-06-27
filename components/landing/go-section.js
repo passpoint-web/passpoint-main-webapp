@@ -4,7 +4,7 @@ import Ipad from "../../public/assets/images/landing/go-ipad.webp";
 
 const GoSection = () => {
   return (
-    <div className="w-full bg-black py-[44px]">
+    <div className="w-full mt-[100px] bg-black py-[44px]">
       <div className="w-[85%] mx-auto flex justify-between items-center gap-[50px] md:w-[90%] tab:flex-col">
         <div data-aos="fade-right" data-aos-duration="1000" className="w-[50%] tab:w-[100%] tab:text-center">
           <h2 className="text-[3vw] text-white font-semibold leading-[140%] tab:text-[5.2vw]">

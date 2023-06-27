@@ -1,5 +1,4 @@
 import Hero from "@/components/faq/hero";
-import MainLayout from "@/layout/mainLayout";
 import Head from "next/head";
 import React from "react";
 import Accordion from "@/components/faq/accordion";

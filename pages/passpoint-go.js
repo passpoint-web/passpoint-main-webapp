@@ -21,7 +21,7 @@ const PasspointGo = () => {
       <Works />
       <Service />
       <Why />
-      <Slider text="What Our Users Say About Us" />
+      {/* <Slider text="What Our Users Say About Us" /> */}
       <Subscribe />
     </>
   );

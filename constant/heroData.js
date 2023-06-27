@@ -74,7 +74,7 @@ export const whyData = [
     data: "zoom-out-left",
     image: Why3,
     title: "Supercharge your travel service offering",
-    text: "Leverage passpoint go to provide global travel services to your clients and employees.",
+    text: "Leverage PasspointGo to provide global travel services to your clients and employees.",
   },
 ];
 
@@ -213,7 +213,7 @@ export const securityData = [
   {
     image: Safety2,
     title: "Trust",
-    text: "Funds are held in a CBN licensed and regulated banks.",
+    text: "Funds are held in CBN licensed and regulated banks.",
   },
   {
     image: Safety3,
