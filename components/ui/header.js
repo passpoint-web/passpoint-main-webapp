@@ -75,7 +75,7 @@ const Header = () => {
           <li>
             <a
               href="#"
-              className="py-[16px] text-white px-[28px] bg-primary rounded-[100px] borderAttributes border-primary hover:text-primarytext-[16px] md:text-[14px] md:py-[10px] md:px-[24px]"
+              className="py-[16px] text-white px-[28px] bg-primary rounded-[100px] borderAttributes border-primary hover:text-primary text-[16px] md:text-[14px] md:py-[10px] md:px-[24px]"
             >
               Signup
             </a>

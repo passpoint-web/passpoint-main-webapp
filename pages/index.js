@@ -11,16 +11,10 @@ import Partners from "@/components/landing/partners";
 import Download from "@/components/landing/download";
 import Subscribe from "@/components/landing/subscribe";
 import Slider from "@/components/landing/slider";
-import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>
-          Home - Travel Anywhere, Anytime With seamless payment Gateways{" "}
-        </title>
-      </Head>
       <Splide
         hasTrack={false}
         options={{
