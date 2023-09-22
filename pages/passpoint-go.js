@@ -5,7 +5,6 @@ import Hero from "@/components/passpointGo/hero";
 import Service from "@/components/passpointGo/service";
 import Why from "@/components/passpointGo/why";
 import Works from "@/components/passpointGo/works";
-import MainLayout from "@/layout/mainLayout";
 import Head from "next/head";
 import React from "react";
 

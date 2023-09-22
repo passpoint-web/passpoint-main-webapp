@@ -18,6 +18,9 @@ module.exports = {
         fluidMedium: "repeat(auto-fit, minmax(15rem, 1fr))",
         fluidLarge: "repeat(auto-fit, minmax(25rem, 1fr))",
       },
+      fontFamily: {
+        montserrat: ["var(--font-montserrat)"],
+      },
     },
     colors: {
       primary: "#009EC5",
