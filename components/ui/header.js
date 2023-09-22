@@ -48,7 +48,8 @@ const Header = () => {
           ))}
           <li className="hidden tab:block">
             <a
-              href="#"
+              href="https://go-dev.mypasspoint.com/auth/login"
+              target="_blank"
               className="text-secondary text-[18px]
             "
             >
@@ -57,7 +58,8 @@ const Header = () => {
           </li>
           <li className="hidden tab:block mt-3">
             <a
-              href="#"
+              href="https://go-dev.mypasspoint.com/auth/signup"
+              target="-blank"
               className="py-[16px] text-white font-bold px-[28px] bg-primary rounded-[100px] text-[18px]"
             >
               Signup
@@ -67,14 +69,19 @@ const Header = () => {
 
         <ul className="flex items-center list-none font-bold tab:hidden">
           <li>
-            <a href="#" className="text-primary text-[16px] md:text-[14px]">
+            <a
+              href="https://go-dev.mypasspoint.com/auth/login"
+              target="_blank"
+              className="text-primary text-[16px] md:text-[14px]"
+            >
               Log In
             </a>
           </li>
           <span className="w-[2px] min-h-[40px] block bg-primary mx-[20px] md:mx-[10px]"></span>
           <li>
             <a
-              href="#"
+              href="https://go-dev.mypasspoint.com/auth/signup"
+              target="-blank"
               className="py-[16px] text-white px-[28px] bg-primary rounded-[100px] borderAttributes border-primary hover:text-primary text-[16px] md:text-[14px] md:py-[10px] md:px-[24px]"
             >
               Signup
