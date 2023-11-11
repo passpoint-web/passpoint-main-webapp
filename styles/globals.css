@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent !important;
+}
+@layer base {
+  body,
+  html {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth !important;
+  }
+  p,
+  a {
+    font-size: 15px;
+    color: #454545;
+  }
+}
+
+@layer utilities {
+  .head-clip {
+    clip-path: polygon(0 0, 100% 0%, 100% 89%, 0% 100%);
+  }
+  .primaryFilter {
+    filter: invert(45%) sepia(87%) saturate(2547%) hue-rotate(161deg)
+      brightness(94%) contrast(101%);
+  }
+  .transition-g {
+    transition: all 0.3s ease-in-out !important;
+  }
+  .gridCol {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+  .borderAttributes {
+    border-width: 2px;
+    border-style: solid;
+    transition: all 0.5s ease-in-out;
+  }
+  .borderAttributes:hover {
+    background-color: transparent !important;
+  }
+  .transHeight {
+    transition: height 0.2s ease;
+  }
+}
