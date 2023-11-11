@@ -5,6 +5,7 @@ const nextConfig = {
     unoptimized: true,
     dangerouslyAllowSVG: true,
   },
+  distDir: "out",
 };
 
 module.exports = nextConfig;
