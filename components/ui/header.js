@@ -27,9 +27,7 @@ const Header = () => {
           </a>
         </Link>
         <ul
-          className={`flex items-center gap-[30px] transform transition duration-300 ease-in-out md:gap-[18px] tab:gap-[20px] tab:fixed tab:bg-white tab:px-[5vw] tab:pt-[20px] tab:z-[200] tab:w-full tab:h-screen tab:top-[64px] tab:left-0 tab:flex-col tab:justify-start tab:items-start tab:translate-x-[-100%] ${
-            openNav && "tab:translate-x-[0]"
-          }`}
+          className={`flex items-center gap-[30px] transform transition duration-300 ease-in-out md:gap-[18px] tab:gap-[20px] tab:fixed tab:bg-white tab:px-[5vw] tab:pt-[20px] tab:z-[200] tab:w-full tab:h-screen tab:top-[64px] tab:left-0 tab:flex-col tab:justify-start tab:items-start x`}
         >
           {navData.map((link, id) => (
             <li key={id} onClick={() => setOpenNav(false)}>

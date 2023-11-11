@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          Home - Travel Anywhere, Anytime With seamless payment Gateways{" "}
+          Home - Travel Anywhere, Anytime With seamless payment Gateways
         </title>
       </Head>
       <Splide

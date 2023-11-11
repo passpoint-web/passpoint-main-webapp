@@ -9,6 +9,7 @@ export default function Document() {
         <link rel="icon" type="image/png" sizes="16x16" href="/fav.svg" />
         <meta name="theme-color" content="#009EC5" />
       </Head>
+      
       <body>
         <Main />
         <NextScript />
