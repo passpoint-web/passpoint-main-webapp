@@ -38,17 +38,19 @@ const Hero = () => {
           Paaspoint Go helps To simplify travel and enable seamless access to
           global opportunities for businesses and individuals.
         </motion.p>
-        <Link href="/passpoint-go" legacyBehavior>
-          <a
-            variants={itemVariants}
-            className="p-[18px_32px] w-fit flex items-center bg-primary text-white font-bold rounded-[100px] borderAttributes border-primary hover:text-primary sm:p-[15px_26px] sm:text-[14px]"
-          >
-            Get Started{" "}
-            <span className="text-[20px] font-semibold ml-[8px]">
-              <HiOutlineArrowSmallRight />
-            </span>
-          </a>
-        </Link>
+        {/* <Link href="/passpoint-go" legacyBehavior> */}
+        <a
+          href="https://go.mypasspoint.com/auth/login"
+          target="_blank"
+          variants={itemVariants}
+          className="p-[18px_32px] w-fit flex items-center bg-primary text-white font-bold rounded-[100px] borderAttributes border-primary hover:text-primary sm:p-[15px_26px] sm:text-[14px]"
+        >
+          Get Started{" "}
+          <span className="text-[20px] font-semibold ml-[8px]">
+            <HiOutlineArrowSmallRight />
+          </span>
+        </a>
+        {/* </Link> */}
       </div>
       <motion.div
         variants={{
