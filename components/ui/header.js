@@ -9,7 +9,7 @@ import Logo from "../../public/assets/images/landing/logo.png";
 const Header = () => {
   const [openNav, setOpenNav] = useState(false);
   const router = useRouter();
-
+  console.log(openNav);
   return (
     <div
       className={`w-full fixed top-0 left-0 py-[28px] z-[100] bg-white tab:py-[15px] shadow-[0_4px_48px_rgba(0,158,197,.08)]`}
@@ -27,13 +27,15 @@ const Header = () => {
           </a>
         </Link>
         <ul
-          className={`flex items-center gap-[30px] transform transition duration-300 ease-in-out md:gap-[18px] tab:gap-[20px] tab:fixed tab:bg-white tab:px-[5vw] tab:pt-[20px] tab:z-[200] tab:w-full tab:h-screen tab:top-[64px] tab:left-0 tab:flex-col tab:justify-start tab:items-start x`}
+          className={`flex items-center gap-[30px] transform transition duration-300 ease-in-out md:gap-[18px] tab:gap-[20px] tab:fixed tab:bg-white tab:px-[5vw] tab:pt-[20px] tab:z-[200] tab:w-full tab:h-screen tab:top-[64px] tab:left-0 tab:flex-col tab:justify-start tab:items-start tab:-translate-x-[100%] ${
+            openNav && "tab:-translate-x-[0]"
+          }`}
         >
           {navData.map((link, id) => (
             <li key={id} onClick={() => setOpenNav(false)}>
               <Link href={link.link} legacyBehavior>
                 <a
-                  className={`relative pb-1 text-[15px] before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[3px] before:w-0 before:bg-primary before:transition-[all_0.4s_ease_in] hover:before:w-full md:text-[14px] tab:text-[18px] ${
+                  className={`relative pb-1 text-[15px] before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[3px] before:w-0 before:bg-primary before:transition-[all_0.4s_ease_in] hover:before:w-full md:text-[14px] tab:text-[18px]  ${
                     router.pathname === link.link
                       ? "text-primary font-bold"
                       : "text-secondary"
