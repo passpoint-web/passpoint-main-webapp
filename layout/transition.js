@@ -43,6 +43,6 @@ const Transition = ({ children }) => {
       </AnimatePresence>
     </div>
   );
-};
+}
 
 export default Transition;
