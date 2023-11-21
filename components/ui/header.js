@@ -9,7 +9,7 @@ import Logo from "../../public/assets/images/landing/logo.png";
 const Header = () => {
   const [openNav, setOpenNav] = useState(false);
   const router = useRouter();
-  console.log(openNav);
+
   return (
     <div
       className={`w-full fixed top-0 left-0 py-[28px] z-[100] bg-white tab:py-[15px] shadow-[0_4px_48px_rgba(0,158,197,.08)]`}
@@ -28,7 +28,7 @@ const Header = () => {
         </Link>
         <ul
           className={`flex items-center gap-[30px] transform transition duration-300 ease-in-out md:gap-[18px] tab:gap-[20px] tab:fixed tab:bg-white tab:px-[5vw] tab:pt-[20px] tab:z-[200] tab:w-full tab:h-screen tab:top-[64px] tab:left-0 tab:flex-col tab:justify-start tab:items-start tab:-translate-x-[100%] ${
-            openNav && "tab:-translate-x-[0]"
+            openNav && "tab:translate-x-[0%]"
           }`}
         >
           {navData.map((link, id) => (
