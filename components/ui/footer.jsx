@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../public/assets/images/landing/logo-2.svg";
-import Twitter from "../../public/assets/images/landing/twitter.svg";
 import Instagram from "../../public/assets/images/landing/instagram.svg";
 import LinkedIn from "../../public/assets/images/landing/linkedIn.svg";
 import Fb from "../../public/assets/images/landing/fb.svg";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -19,12 +19,17 @@ const Footer = () => {
               Plan trips on your own convenience without curren cy type barriers
               with your preferred currency wallet you can pay for anything.
             </li>
-            <li className="inline-flex gap-[24px]">
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                <Image src={Twitter} alt="passpoint twitter" />
+            <li className="inline-flex gap-[24px] items-center">
+              <a
+                href="https://twitter.com/MyPasspoint"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-1 bg-white rounded-full"
+              >
+                <FaXTwitter className="text-primary" />
               </a>
               <a
-                href="https://instagram.com/mypasspoint"
+                href="https://instagram.com/mypasspoint_"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,13 +42,17 @@ const Footer = () => {
               >
                 <Image src={LinkedIn} alt="passpoint linkedIn" />
               </a>
-              <a href="http://" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://m.facebook.com/profile.php/?id=61550867155374"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image src={Fb} alt="passpoint facebook" />
               </a>
             </li>
           </ul>
         </section>
-        <section className="[&>:first-child]:font-semibold [&>:first-child]:text-lowWhite [&>:first-child]:mb-[20px]">
+        {/* <section className="[&>:first-child]:font-semibold [&>:first-child]:text-lowWhite [&>:first-child]:mb-[20px]">
           <h3>Features</h3>
           <ul className="flex flex-col gap-2 text-white text-[14px] sm:text-[13px]">
             <li>
@@ -80,12 +89,12 @@ const Footer = () => {
               </Link>
             </li>
           </ul>
-        </section>
+        </section> */}
         <section className="[&>:first-child]:font-semibold [&>:first-child]:text-lowWhite [&>:first-child]:mb-[20px]">
           <h3>Products</h3>
           <ul className="flex flex-col gap-2 text-white text-[14px] sm:text-[13px]">
-            <li>Virtual Card</li>
-            <li>Physical Card</li>
+            {/* <li>Virtual Card</li>
+            <li>Physical Card</li> */}
             <li>
               <Link href="/passpoint-go" legacyBehavior>
                 <a className="text-white text-[14px] sm:text-[13px]">
@@ -98,11 +107,11 @@ const Footer = () => {
         <section className="[&>:first-child]:font-semibold [&>:first-child]:text-lowWhite [&>:first-child]:mb-[20px]">
           <h3>About</h3>
           <ul className="flex flex-col gap-2">
-            <li>
+            {/* <li>
               <Link href="" legacyBehavior>
                 <a className="text-white text-[14px] sm:text-[13px]">Company</a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/faq" legacyBehavior>
                 <a className="text-white text-[14px] sm:text-[13px]">FAQS</a>
