@@ -49,7 +49,7 @@ export default function Home() {
       <WhyUs />
       <Works />
       <Service />
-      {/* <Slider text="What Our Customers Say About Us" /> */}
+      <Slider text="What Our Customers Say About Us" />
       <GoSection />
       <Partners />
       <Download />

@@ -4,7 +4,7 @@ import Logo from "../../public/assets/images/landing/logo-2.svg";
 import Instagram from "../../public/assets/images/landing/instagram.svg";
 import LinkedIn from "../../public/assets/images/landing/linkedIn.svg";
 import Fb from "../../public/assets/images/landing/fb.svg";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaWhatsapp, FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -48,6 +48,14 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <Image src={Fb} alt="passpoint facebook" />
+              </a>
+              <a
+                href="https://wa.me/2348166144175"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-1 bg-white rounded-full"
+              >
+                <FaWhatsapp className="text-primary font-bold text-[15px]" />
               </a>
             </li>
           </ul>
