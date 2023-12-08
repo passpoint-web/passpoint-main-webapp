@@ -10,7 +10,7 @@ import GoSection from "@/components/landing/go-section";
 import Partners from "@/components/landing/partners";
 import Download from "@/components/landing/download";
 import Subscribe from "@/components/landing/subscribe";
-import Slider from "@/components/landing/slider";
+// import Slider from "@/components/landing/slider";
 import Head from "next/head";
 
 export default function Home() {
@@ -49,7 +49,7 @@ export default function Home() {
       <WhyUs />
       <Works />
       <Service />
-      <Slider text="What Our Customers Say About Us" />
+      {/* <Slider text="What Our Customers Say About Us" /> */}
       <GoSection />
       <Partners />
       <Download />
